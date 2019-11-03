@@ -3,7 +3,7 @@
 
 @import "{{ site.theme }}";
 
-<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Lato&display=swap" rel="stylesheet"> 
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Lato&display=swap');
 
 h1, h2, h3 {
     font-family: 'Fjalla One', sans-serif;
