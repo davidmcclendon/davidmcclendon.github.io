@@ -1,12 +1,8 @@
 ---
 ---
 
-@import "";
+@import "{{ site.theme }}";
   
-  h1, body {
+h1, body {
   font-family: Lato;
 }
-
-
-
-
