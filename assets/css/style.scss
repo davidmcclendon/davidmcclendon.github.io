@@ -3,8 +3,12 @@
 
 @import "{{ site.theme }}";
 
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC|Open+Sans&display=swap');
 
-h1, body {
-  font-family: Roboto Slab;
+h1, h2, h3 {
+  font-family: 'Bowlby One SC', cursive;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
 }
