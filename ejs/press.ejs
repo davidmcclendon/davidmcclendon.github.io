@@ -4,7 +4,9 @@
 <span class="item-aside"><span class="outlet-tag"><%- item.outlet %></span><span class="item-meta"><%- item.date %></span></span>
 <div class="item-body">
 <span class="item-title"><a href="<%- item.url %>"><%- item.title %></a></span>
-<% if (item.archived) { %><span class="item-meta">archived copy</span><% } %>
+<% if (item.format || item.archived) { %>
+<span class="item-meta"><% if (item.format) { %><%- item.format %><% } %><% if (item.format && item.archived) { %> · <% } %><% if (item.archived) { %>archived copy<% } %></span>
+<% } %>
 </div>
 </div>
 <% } %>

@@ -2,7 +2,7 @@
 # so file order is page order.
 #
 # Required: title, outlet, url
-# Optional: date, archived
+# Optional: date, archived, format (e.g. "video" for a broadcast segment)
 #
 # No blurbs here on purpose. Listing the outlet, headline and date is enough;
 # describing what each piece said about the work reads as self-promotional.
@@ -34,15 +34,41 @@
   date: 2025-09-12
   url: "https://www.nytimes.com/2025/09/12/your-money/debt-collection-lawsuits.html"
 
-- title: "In Harris County, your legal experience could vary wildly due to a 51-yr-old map"
+- title: "Pew: More Minnesotans facing medical debt lawsuits"
+  outlet: "KARE 11"
+  date: 2025-09-08
+  url: "https://www.youtube.com/watch?v=f8rntiNfMrQ"
+  format: "video"
+
+- title: "Lawsuits against patients over unpaid medical bills increase in Minnesota to a five-year high"
+  outlet: "MPR News"
+  date: 2025-09-07
+  url: "https://www.mprnews.org/story/2025/09/07/unpaid-medical-bills-lawsuits"
+
+- title: "Harris County's 'hall of shame' precincts are overwhelming courts with crushing caseloads, data shows"
   outlet: "Houston Chronicle"
   date: 2024-11-01
   url: "https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/"
+
+- title: "Houston's low voter turnout isn't driven by motivation issues; it's driven by access issues"
+  outlet: "Houston Landing"
+  date: 2023-11-09
+  url: "https://houstonlanding.org/houstons-low-voter-turnout-isnt-driven-by-motivation-issues-its-driven-by-access-issues/"
 
 - title: "At the fringes of Houston's prosperity, the city's eviction machine is running full throttle"
   outlet: "Texas Tribune"
   date: 2023-06-08
   url: "https://www.texastribune.org/2023/06/08/houston-evictions-jackson-square/"
+
+- title: "Protestors Rally At Harris County Housing Court In Attempt To Stop Evictions"
+  outlet: "Houston Public Media"
+  date: 2020-08-21
+  url: "https://www.houstonpublicmedia.org/articles/news/harris-county/2020/08/21/380230/protestors-rally-at-harris-county-housing-court-in-attempt-to-stop-evictions/"
+
+- title: "Galveston County eviction cases have become dire"
+  outlet: "The Galveston County Daily News"
+  date: 2020-08-21
+  url: "https://www.galvnews.com/news/free/article_36dd043b-7f1c-5a46-996f-b948872eda1c.html"
 
 - title: "Texas Education Agency's A-F accountability ratings reveal link to poverty"
   outlet: "Community Impact"
@@ -63,3 +89,18 @@
   outlet: "Salon"
   date: 2016-06-02
   url: "https://www.salon.com/2016/06/02/women_are_fleeing_the_church_partner/"
+
+- title: "Interfaith America: 'Being both' is a rising trend in the US"
+  outlet: "Christian Science Monitor"
+  date: 2014-11-23
+  url: "https://www.csmonitor.com/Arts-Culture/Family/2014/1123/Interfaith-America-Being-both-is-a-rising-trend-in-the-US"
+
+- title: "The rise of interfaith marriages"
+  outlet: "MPR News"
+  date: 2014-04-24
+  url: "https://www.mprnews.org/story/2014/04/24/daily-circuit-interfaith-marriage"
+
+- title: "Married Interfaith Couples Who Keep Religious Traditions Separate on the Rise"
+  outlet: "Slate"
+  date: 2014-02-04
+  url: "https://slate.com/human-interest/2014/02/interfaith-marriage-study-couples-who-keep-their-religious-traditions-separate-on-the-rise.html"

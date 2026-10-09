@@ -294,3 +294,10 @@
   url: "https://web.archive.org/web/20160404234153/https://contemporaryfamilies.org/interfaith-marriage-in-the-us/"
   archived: true
   blurb: "The share of U.S. marriages joining partners from different religions roughly doubled from the 1960s to the 2000s. A growing share of those couples keep separate religious identities rather than one partner converting."
+  coverage:
+    - outlet: "Slate"
+      url: "https://slate.com/human-interest/2014/02/interfaith-marriage-study-couples-who-keep-their-religious-traditions-separate-on-the-rise.html"
+    - outlet: "MPR News"
+      url: "https://www.mprnews.org/story/2014/04/24/daily-circuit-interfaith-marriage"
+    - outlet: "Christian Science Monitor"
+      url: "https://www.csmonitor.com/Arts-Culture/Family/2014/1123/Interfaith-America-Being-both-is-a-rising-trend-in-the-US"
