@@ -53,9 +53,9 @@ format:
     include-after-body: styles/viz-tip.html
     toc: false
     anchor-sections: false
-    # Outbound links open in the same tab: this is a link-out site and
-    # forcing new tabs is hostile to keyboard and screen reader users.
-    link-external-newwindow: false
+    # Outbound links open in a new tab. Internal nav is excluded by the
+    # filter below so moving around the site stays in one tab.
+    link-external-newwindow: true
     link-external-icon: false
     lang: en
 

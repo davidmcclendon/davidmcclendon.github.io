@@ -421,6 +421,37 @@ ul.task-list li input[type="checkbox"] {
   } else { init(); }
 })();
 </script>
+
+<script>
+(function () {
+  // Open outbound links in a new tab.
+  //
+  // Quarto's `link-external-newwindow: true` is set in _quarto.yml but has no
+  // effect in the bundled version here, and it would not reach links emitted
+  // inside raw-HTML blocks or the EJS listing templates anyway. Doing it in the
+  // DOM covers every link on the page from one place.
+  //
+  // rel="noopener noreferrer" is required with target="_blank": without it the
+  // opened page gets a handle on this one via window.opener.
+  function init() {
+    var here = location.hostname;
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      var href = a.getAttribute('href') || '';
+      if (!/^https?:/i.test(href)) continue;      // skip #anchors, mailto:, relative paths
+      var host;
+      try { host = new URL(a.href).hostname; } catch (e) { continue; }
+      if (!host || host === here) continue;        // keep same-site navigation in this tab
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -514,6 +545,11 @@ ul.task-list li input[type="checkbox"] {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
+            // target, if specified
+            link.setAttribute("target", "_blank");
+            if (link.getAttribute("rel") === null) {
+              link.setAttribute("rel", "noopener");
+            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

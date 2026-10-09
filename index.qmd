@@ -31,7 +31,7 @@ religious demography.
 <a href="https://scholar.google.com/citations?hl=en&amp;user=334SIp0AAAAJ">Google Scholar</a>
 <a href="https://www.linkedin.com/in/david-mcclendon/">LinkedIn</a>
 <a href="https://github.com/davidmcclendon">GitHub</a>
-<a href="assets/cv-mcclendon.pdf">CV (PDF)</a>
+<a href="assets/cv-mcclendon.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 </div>
 ```
 

@@ -11,7 +11,7 @@ listing:
     filter-ui: false
 ---
 
-[<i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Download CV (PDF)](assets/cv-mcclendon.pdf){.btn .btn-outline-secondary .btn-sm}
+[<i class="bi bi-file-earmark-pdf" aria-hidden="true"></i> Download CV (PDF)](assets/cv-mcclendon.pdf){target="_blank" rel="noopener" .btn .btn-outline-secondary .btn-sm}
 
 ## Education
 

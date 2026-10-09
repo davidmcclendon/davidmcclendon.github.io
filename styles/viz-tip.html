@@ -71,3 +71,34 @@
   } else { init(); }
 })();
 </script>
+
+<script>
+(function () {
+  // Open outbound links in a new tab.
+  //
+  // Quarto's `link-external-newwindow: true` is set in _quarto.yml but has no
+  // effect in the bundled version here, and it would not reach links emitted
+  // inside raw-HTML blocks or the EJS listing templates anyway. Doing it in the
+  // DOM covers every link on the page from one place.
+  //
+  // rel="noopener noreferrer" is required with target="_blank": without it the
+  // opened page gets a handle on this one via window.opener.
+  function init() {
+    var here = location.hostname;
+    var links = document.querySelectorAll('a[href]');
+    for (var i = 0; i < links.length; i++) {
+      var a = links[i];
+      var href = a.getAttribute('href') || '';
+      if (!/^https?:/i.test(href)) continue;      // skip #anchors, mailto:, relative paths
+      var host;
+      try { host = new URL(a.href).hostname; } catch (e) { continue; }
+      if (!host || host === here) continue;        // keep same-site navigation in this tab
+      a.setAttribute('target', '_blank');
+      a.setAttribute('rel', 'noopener noreferrer');
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else { init(); }
+})();
+</script>
