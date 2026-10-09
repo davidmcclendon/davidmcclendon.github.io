@@ -1,6 +1,11 @@
 ---
 title: "Research and writing"
-description: "Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted."
+# description-meta rather than description: it fills the meta tag without
+# rendering a subhead under the title. Quarto only derives og:description from
+# `description`, so that tag is supplied explicitly below.
+description-meta: "Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted."
+header-includes: |
+  <meta property="og:description" content="Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted.">
 listing:
   - id: peer-reviewed
     contents: data/publications.yml
@@ -22,6 +27,11 @@ listing:
 ::: {.panel-tabset}
 
 ## At a glance
+
+I have studied religion and demography worldwide, inequality in how families
+form, children's health and education in Texas, voter access, and most
+recently eviction and debt collection in the civil courts. That work has drawn
+on national censuses, Houston parcel maps, and county court dockets.
 
 ```{=html}
 <div class="fig-head"><h3>How the work has shifted</h3><span class="fig-no">FIG. 1 &mdash; RIDGE DENSITY</span></div>

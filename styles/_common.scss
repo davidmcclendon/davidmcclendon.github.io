@@ -74,39 +74,46 @@ a:hover { text-decoration-thickness: 2px; }
 #quarto-content::before { top: 14px; left: 2px; }
 #quarto-content::after  { bottom: 14px; right: 2px; }
 
-// ── landing block ───────────────────────────────────────────────────────
-.plate {
-  display: grid;
-  grid-template-columns: 1fr 15rem;
-  border-bottom: 1px solid $body-color;
-  margin-bottom: 1.6rem;
-}
-.plate-main { padding: 0.4rem 1.6rem 1.7rem 0; }
-.plate-side {
-  border-left: 1px solid $rule;
-  padding: 0.5rem 0 1.4rem 1.2rem;
-}
+// ── landing: one two-column grid for the whole page ───────────────────
+// The name and role run full width; everything below sits in two columns so
+// the prose and the record panel end together instead of leaving a hole.
+.sheet-name { margin: 0.3rem 0 0.2rem; }
 .role {
   font-family: $font-family-monospace;
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   color: $link-color;
-  margin-bottom: 1rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid $body-color;
+  margin-bottom: 1.5rem;
 }
-.lede { font-size: 1.06rem; max-width: 46ch; }
+
+.sheet {
+  display: grid;
+  grid-template-columns: 1fr 14rem;
+  gap: 0 2.2rem;
+  align-items: start;
+}
+.sheet-main > p:first-child { margin-top: 0; font-size: 1.06rem; }
+.sheet-side {
+  border-left: 1px solid $rule;
+  padding-left: 1.4rem;
+}
 .sheet-field {
   display: block;
+  font-family: $font-family-monospace;
+  font-size: 0.68rem;
+  letter-spacing: 0.07em;
   font-weight: 500;
   color: $body-color;
-  margin-top: 0.95rem;
+  margin-top: 1rem;
 }
-.sheet-field:first-child { margin-top: 0; }
 .sheet-val {
   display: block;
   font-family: $font-family-monospace;
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: $muted;
-  letter-spacing: 0.01em;
+  line-height: 1.5;
 }
 
 // ── ruled section heads ─────────────────────────────────────────────────
@@ -274,9 +281,14 @@ a:hover { text-decoration-thickness: 2px; }
 }
 
 @media (max-width: 640px) {
-  .plate { grid-template-columns: 1fr; }
-  .plate-side { border-left: 0; border-top: 1px solid $rule; padding: 1rem 0 0; margin-top: 0.4rem; }
-  .plate-main { padding-right: 0; }
+  .sheet { grid-template-columns: 1fr; }
+  .sheet-side {
+    border-left: 0;
+    border-top: 1px solid $rule;
+    padding: 1.1rem 0 0;
+    margin-top: 1.4rem;
+  }
+  .plate-photo { max-width: 10rem; }
   h1 { font-size: 2.1rem; }
   .item { grid-template-columns: 1fr; }
   .item-blurb { grid-column: 1; }
@@ -294,12 +306,12 @@ a:hover { text-decoration-thickness: 2px; }
 .plate-photo {
   display: block;
   width: 100%;
-  max-width: 10.5rem;
+  max-width: 100%;
   height: auto;
   border: 1px solid $body-color;
   padding: 3px;
   background: $body-bg;
-  margin-bottom: 1.1rem;
+  margin-bottom: 0.4rem;
   filter: saturate(0.82) contrast(1.02);
 }
 

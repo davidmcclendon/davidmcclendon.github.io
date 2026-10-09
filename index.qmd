@@ -5,37 +5,24 @@ anchor-sections: false
 ---
 
 ```{=html}
-<div class="plate">
-<div class="plate-main">
-<h1>David McClendon</h1>
+<h1 class="sheet-name">David McClendon</h1>
 <div class="role">SOCIOLOGIST &amp; DEMOGRAPHER / MINNEAPOLIS</div>
-<p class="lede">I build datasets out of civil court records to measure who gets sued,
-where, and what happens to the people who show up without a lawyer.</p>
-</div>
-<div class="plate-side">
-<img class="plate-photo" src="assets/headshot.jpg" alt="Portrait of David McClendon" width="168" height="168">
-<span class="sheet-field">POSITION</span>
-<span class="sheet-val">Partner, January Advisors</span>
-<span class="sheet-field">PREVIOUSLY</span>
-<span class="sheet-val">CHILDREN AT RISK<br>Pew Research Center</span>
-<span class="sheet-field">TRAINED</span>
-<span class="sheet-val">Ph.D. Sociology,<br>UT Austin, 2015</span>
-</div>
-</div>
 ```
 
+::: {.sheet}
+
+::: {.sheet-main}
+
 I am a partner and principal consultant at [January Advisors](https://www.januaryadvisors.com),
-a data science consulting firm that works with nonprofits and local governments. I lead a
-team of data scientists on research and data visualization covering housing, consumer debt,
-civic engagement, and demographic change.
+a data science firm that works with nonprofits and local governments. I lead a team of data
+scientists working on housing, consumer debt, civic engagement, and demographic change.
 
-Much of the recent work is built from court records. Eviction and debt collection cases make
-up a large share of what local civil courts actually do, and the people on the receiving end
-rarely have lawyers.
+I study how institutions and place produce inequality: who marries whom, who finishes school,
+who gets sued and where.
 
-Before January Advisors I co-directed research at CHILDREN AT RISK in Houston, where I led
-projects on education, child care, child health, and human trafficking in Texas. Before that
-I was a research associate at Pew Research Center in Washington, D.C., working on global
+Before January Advisors I co-directed research at CHILDREN AT RISK in Houston, leading
+projects on education, child care, child health, and human trafficking in Texas. Earlier I
+was a research associate at Pew Research Center in Washington, D.C., working on global
 religious demography.
 
 ```{=html}
@@ -47,3 +34,21 @@ religious demography.
 <a href="assets/cv-mcclendon.pdf">CV (PDF)</a>
 </div>
 ```
+
+:::
+
+::: {.sheet-side}
+
+```{=html}
+<img class="plate-photo" src="assets/headshot.jpg" alt="Portrait of David McClendon" width="168" height="168">
+<span class="sheet-field">POSITION</span>
+<span class="sheet-val">Partner, January Advisors</span>
+<span class="sheet-field">PREVIOUSLY</span>
+<span class="sheet-val">CHILDREN AT RISK<br>Pew Research Center</span>
+<span class="sheet-field">TRAINED</span>
+<span class="sheet-val">Ph.D. Sociology,<br>UT Austin, 2015</span>
+```
+
+:::
+
+:::
