@@ -94,7 +94,11 @@ a:hover { text-decoration-thickness: 2px; }
   gap: 0 2.2rem;
   align-items: start;
 }
-.sheet-main > p:first-child { margin-top: 0; font-size: 1.06rem; }
+// Only kill the leading margin. An earlier version also bumped this
+// paragraph to 1.06rem, a leftover from when it was the standfirst in the
+// old plate layout. At 6% it did not read as a deliberate lede, just as a
+// slightly wrong font.
+.sheet-main > p:first-child { margin-top: 0; }
 .sheet-side {
   border-left: 1px solid $rule;
   padding-left: 1.4rem;
