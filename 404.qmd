@@ -1,0 +1,6 @@
+---
+title: "Page not found"
+---
+
+That page does not exist. Try [About](/index.html), [Research](/research.html),
+[Writing](/writing.html), or the [CV](/cv.html).

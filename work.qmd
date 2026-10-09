@@ -1,0 +1,54 @@
+---
+title: "Research and writing"
+description: "Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted."
+listing:
+  - id: peer-reviewed
+    contents: data/publications.yml
+    template: ejs/publications.ejs
+    type: custom
+    sort: false
+    sort-ui: false
+    filter-ui: false
+  - id: writing
+    contents: data/writing.yml
+    template: ejs/writing.ejs
+    type: custom
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    date-format: "MMMM YYYY"
+---
+
+::: {.panel-tabset}
+
+## At a glance
+
+```{=html}
+<div class="fig-head"><h3>How the work has shifted</h3><span class="fig-no">FIG. 1 &mdash; RIDGE DENSITY</span></div>
+```
+
+{{< include _viz/topics.md >}}
+
+```{=html}
+<div class="fig-head"><h3>Where the work is</h3><span class="fig-no">FIG. 2 &mdash; STATES COVERED</span></div>
+```
+
+{{< include _viz/studied-map.md >}}
+
+## Applied writing
+
+::: {#writing}
+:::
+
+## Peer-reviewed
+
+::: {#peer-reviewed}
+:::
+
+### Dissertation
+
+[Marriage Markets during the Transition to Adulthood in the United States](https://repositories.lib.utexas.edu/items/30b0d0f6-42c4-4e8d-852c-0b0bc42eac34).
+Ph.D. dissertation, Department of Sociology, University of Texas at Austin, 2015.
+doi:[10.15781/T2XP4V](https://doi.org/10.15781/T2XP4V)
+
+:::

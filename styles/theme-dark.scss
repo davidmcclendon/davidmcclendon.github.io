@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+// Blueprint: the negative of the survey sheet. Deep ground, pale linework.
+$font-family-sans-serif: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$font-family-condensed:  "Archivo Narrow", "Archivo", "Helvetica Neue", sans-serif !default;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace !default;
+
+$body-bg:    #0f1b27;
+$body-color: #e3ecf2;
+$link-color: #d9654e;
+$muted:      #9db2c2;
+$rule:       #30475a;
+$register:   #8fb4cc;   // 7.93:1 on blueprint
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$footer-bg: $body-bg;
+$code-bg:   #162635;
+
+// Emphasis mark is its own step, validated on the blueprint ground (4.91:1).
+$viz-mark:    #d9654e;
+$viz-neutral: #9db2c2;
+$viz-geo:     #15273a;
+
+/*-- scss:rules --*/
+@import "_common.scss";

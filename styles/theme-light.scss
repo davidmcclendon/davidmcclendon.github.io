@@ -1,0 +1,26 @@
+/*-- scss:defaults --*/
+// Plat / survey sheet. Paper ground, ink linework, survey red for emphasis,
+// register blue for secondary reference.
+$font-family-sans-serif: "Archivo", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !default;
+$font-family-condensed:  "Archivo Narrow", "Archivo", "Helvetica Neue", sans-serif !default;
+$font-family-monospace:  "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace !default;
+
+$body-bg:    #f7f5f0;
+$body-color: #16202a;
+$link-color: #b03a2e;
+$muted:      #5b6670;
+$rule:       #c9c4b8;
+$register:   #3c6e8f;   // 5.05:1 on paper
+
+$navbar-bg: $body-bg;
+$navbar-fg: $body-color;
+$footer-bg: $body-bg;
+$code-bg:   #eeebe3;
+
+// Chart tokens. Validated against the paper surface.
+$viz-mark:    #b03a2e;   // emphasis mark; passes band, chroma, 3:1
+$viz-neutral: #16202a;   // hatch linework; 15.1:1
+$viz-geo:     #efece4;
+
+/*-- scss:rules --*/
+@import "_common.scss";

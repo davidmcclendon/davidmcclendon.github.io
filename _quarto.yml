@@ -1,0 +1,64 @@
+project:
+  type: website
+  # Rendered output is committed and served directly by GitHub Pages
+  # (Settings > Pages > master / docs). Render locally, inspect, then commit.
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!cv-pdf/"
+
+website:
+  title: "David McClendon"
+  description: "Sociologist and demographer. Research on civil courts, housing, and demographic change."
+  site-url: "https://davidmcclendon.github.io"
+  image: assets/headshot-og.jpg
+  favicon: assets/favicon.png
+  open-graph: true
+  search: false
+  page-navigation: false
+  navbar:
+    title: "David McClendon"
+    left:
+      - href: index.qmd
+        text: About
+      - href: work.qmd
+        text: Work
+      - href: press.qmd
+        text: In the news
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: mortarboard
+        href: "https://scholar.google.com/citations?hl=en&user=334SIp0AAAAJ"
+        aria-label: "Google Scholar"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/david-mcclendon/"
+        aria-label: "LinkedIn"
+      - icon: github
+        href: "https://github.com/davidmcclendon"
+        aria-label: "GitHub"
+      - icon: envelope
+        href: "mailto:david@januaryadvisors.com"
+        aria-label: "Email"
+  page-footer:
+    left: "© 2026 David McClendon"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: styles/theme-light.scss
+      dark: styles/theme-dark.scss
+    include-in-header: styles/head.html
+    include-after-body: styles/viz-tip.html
+    toc: false
+    anchor-sections: false
+    # Outbound links open in the same tab: this is a link-out site and
+    # forcing new tabs is hostile to keyboard and screen reader users.
+    link-external-newwindow: false
+    link-external-icon: false
+    lang: en
+
+# No code chunks anywhere. Explicit guarantee that no R dependency can creep in.
+execute:
+  enabled: false

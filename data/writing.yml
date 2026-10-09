@@ -1,0 +1,296 @@
+# Applied writing, published elsewhere. NEWEST FIRST; the page uses
+# sort: false, so file order is page order.
+#
+# Required: title, outlet, date, url
+# Optional: coauthors, blurb, archived
+#
+# Titles are verbatim as published, including punctuation.
+
+- title: "Consumer Debt Filings Kept Climbing in 2025"
+  outlet: "January Advisors"
+  date: 2026-07-15
+  coauthors: "Divia Kallattil"
+  url: "https://www.januaryadvisors.com/consumer-debt-filings-kept-climbing-in-2025/"
+  blurb: "Debt collection filings rose again in 2025. Missouri reached 188% and Texas 177% of their 2019 volumes, and the debt buyer LVNV Funding alone accounted for about 23% of cases in the sample."
+  coverage:
+    - outlet: "Wall Street Journal"
+      url: "https://www.wsj.com/personal-finance/credit/debt-collectors-chase-more-consumers-in-court-f8d0ed3f"
+    - outlet: "Bloomberg Law"
+      url: "https://news.bloomberglaw.com/banking-law/debt-collection-case-surge-draws-push-to-aid-pro-se-defendants"
+
+
+- title: "When Real Debt Collection Lawsuits Look Like Scams: The Problem with Pocket Filing in Minnesota"
+  outlet: "January Advisors"
+  date: 2026-04-01
+  url: "https://www.januaryadvisors.com/debt-collection-pocket-filing-in-minnesota/"
+  blurb: "Minnesota lets a debt collector serve a lawsuit up to a year before filing it with the court, so defendants cannot confirm the case is real. A review of 1,000 cases found most plaintiffs file within two months anyway."
+
+- title: "43 states have online voter registration. Why not Texas?"
+  outlet: "January Advisors"
+  date: 2026-03-24
+  coauthors: "Shannon Carter"
+  url: "https://www.januaryadvisors.com/texas-online-voter-registration/"
+  blurb: "Florida registration data from 2017 to 2024 shows no independent partisan effect from online registration. County population size drove the trends instead."
+
+- title: "Most people sued for debt never get their day in court. We can fix that."
+  outlet: "January Advisors"
+  date: 2025-12-19
+  url: "https://www.januaryadvisors.com/debt-collection-answer-requirement/"
+  blurb: "People sued for debt are 2.1 to 3.7 times more likely to take part in their case where courts require no formal written answer. Dropping California's answer requirement could bring 5,000 to 12,000 more defendants into the process each year."
+  coverage:
+    - outlet: "Journalist's Resource"
+      url: "https://journalistsresource.org/economics/debt-collection-lawsuits/"
+
+
+- title: "Consumer Debt Collection Lawsuits in Wisconsin, 2018-2024"
+  outlet: "Debt Collection Lab"
+  date: 2025-12-17
+  coauthors: "Divia Kallattil"
+  url: "https://debtcollectionlab.org/research/wisconsin-debt-collection-lawsuits/"
+  blurb: "Wisconsin courts saw nearly 100,000 debt collection filings in 2024, most brought by national debt buyers and banks. Black residents were sued at 1.86 times the rate of white residents."
+
+- title: "Could stronger wage garnishment protections mean fewer debt collection lawsuits?"
+  outlet: "January Advisors"
+  date: 2025-12-16
+  url: "https://www.januaryadvisors.com/wage-garnishment-protections-debt-collection-lawsuits/"
+  blurb: "States with stronger wage garnishment protections see fewer debt collection filings per capita. Raising the nine states graded F to a C could mean roughly 128,000 fewer cases a year."
+
+- title: "Consumer Debt Cases Are Surging Again—and One Company Is Leading the Charge"
+  outlet: "January Advisors"
+  date: 2025-08-29
+  coauthors: "Divia Kallattil"
+  url: "https://www.januaryadvisors.com/consumer-debt-cases-are-surging-again-2024/"
+  blurb: "Debt collection filings matched or passed pre-pandemic levels in 2024 and 2025. LVNV Funding's volume rose 350% since 2019 and now makes up 18% of all filings in the sample."
+  coverage:
+    - outlet: "New York Times"
+      url: "https://www.nytimes.com/2025/09/12/your-money/debt-collection-lawsuits.html"
+
+
+- title: "How campaign donations affect indigent defense in Harris County"
+  outlet: "January Advisors"
+  date: 2025-03-19
+  coauthors: "Brian Barr, Jeff Reichman"
+  url: "https://www.januaryadvisors.com/how-campaign-donations-affect-indigent-defense-in-harris-county/"
+  blurb: "Harris County judges assigned about twice as many indigent defense cases to attorneys who donated to their campaigns. Donor attorneys got no better outcomes than non-donors, and public defenders outperformed appointed counsel."
+
+- title: "Measuring racial disparities in consumer debt lawsuits"
+  outlet: "January Advisors"
+  date: 2024-08-26
+  url: "https://www.januaryadvisors.com/debt-racial-disparities/"
+  blurb: "In Michigan, Minnesota, and Oregon, Black and Latino residents faced debt collection lawsuits at two to three times the rate of non-Hispanic white residents. The gap held in higher-income neighborhoods."
+
+- title: "Third-party debt collectors and debt buyers dominate Oregon's civil courts, few Oregonians participate in debt cases against them"
+  outlet: "Debt Collection Lab"
+  date: 2024-08-19
+  coauthors: "Divia Kallattil"
+  url: "https://debtcollectionlab.org/research/oregon-findings-chartbook/"
+  blurb: "Debt collection cases made up 52% of Oregon's circuit court civil docket and reached more than 50,000 residents a year. Fewer than 4% of defendants responded and fewer than 1% had a lawyer."
+
+- title: "Evictions in Houston After Hurricane Harvey"
+  outlet: "January Advisors"
+  date: 2023-11-15
+  url: "https://www.januaryadvisors.com/evictions-houston-after-harvey/"
+  blurb: "Eviction filings dipped right after Hurricane Harvey and then spiked. Flooded garden-style apartment complexes saw a 29% increase in evictions between 2016 and 2019."
+
+- title: "A scary new era for evictions in Harris County"
+  outlet: "January Advisors"
+  date: 2023-03-07
+  url: "https://www.januaryadvisors.com/a-scary-new-era-for-evictions-in-harris-county/"
+  blurb: "Harris County recorded close to 80,000 eviction filings in 2022, well above the pre-pandemic norm of 55,000 to 60,000. That ranked third nationally against historical averages."
+
+- title: "Essay: 5 minutes per eviction hearing? Why Harris County should redraw court maps."
+  outlet: "Houston Chronicle"
+  date: 2022-12-15
+  url: "https://www.houstonchronicle.com/opinion/outlook/article/houston-texas-eviction-courts-maps-17653865.php"
+  blurb: "Harris County justice of the peace precincts have not been redrawn since 1973. Some courts have about a minute per eviction case while others have fifteen."
+
+  coverage:
+    - outlet: "Houston Chronicle"
+      url: "https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/"
+- title: "Redrawing Houston's Eviction Courts: Any Map is Better Than What We Have Now"
+  outlet: "January Advisors"
+  date: 2022-11-11
+  url: "https://www.januaryadvisors.com/redrawing-houstons-eviction-courts-any-map-is-better-than-what-we-have-now/"
+  blurb: "Precinct 5 carries close to ten times the population and caseload of Precinct 6. A simulation of 1,000 alternative precinct maps produced more balanced caseloads than the map in use."
+
+  coverage:
+    - outlet: "Houston Chronicle"
+      url: "https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/"
+- title: "Galveston has a housing crisis on multiple fronts"
+  outlet: "January Advisors"
+  date: 2021-10-27
+  url: "https://www.januaryadvisors.com/galveston-housing-crisis/"
+  blurb: "Median home prices in Galveston rose 80% over a decade and short-term rentals more than doubled after 2019. About 800 fewer families with children now live on the island."
+
+- title: "Houston-based care coordination pilot program improves health outcomes"
+  outlet: "January Advisors"
+  date: 2021-09-17
+  url: "https://www.januaryadvisors.com/houston-care-coordination-improves-health-outcomes/"
+  blurb: "Houston's C3 pilot completed 69% of its care pathways using dedicated coordinators. Scaling to 1,000 clients could save $236,000 to $600,000 in avoided emergency room visits."
+
+- title: "First Results of the CDC Eviction Moratorium in Tarrant County"
+  outlet: "January Advisors"
+  date: 2021-04-01
+  url: "https://www.januaryadvisors.com/cdc-eviction-moratorium-tarrant-county/"
+  blurb: "The CDC moratorium cut Tarrant County eviction filings to 57% of the historical average. Only 27% of eligible tenants filed a declaration, and landlords still won 35% of the cases where one was filed."
+
+- title: "Using Data to Find Walls for Census 2020 Murals"
+  outlet: "January Advisors"
+  date: 2020-08-03
+  url: "https://www.januaryadvisors.com/using-data-to-find-walls-for-census-2020-murals/"
+  blurb: "American Community Survey data identified the Houston neighborhoods with the most historically undercounted residents. Density rather than percentage share determined the best mural sites, which put Gulfton ahead of Second Ward."
+
+- title: "Top 5 Takeaways About the Vote Your Way Campaign"
+  outlet: "January Advisors"
+  date: 2019-12-20
+  url: "https://www.januaryadvisors.com/vote-your-way-top-5-takeaways/"
+  blurb: "About half of Harris County voters used a polling place outside their assigned precinct under countywide voting. Among voters ages 18 to 29 the share was 62%."
+
+- title: "Serving Veterans After Hurricane Harvey: Five Key Findings"
+  outlet: "January Advisors"
+  date: 2019-12-02
+  url: "https://www.januaryadvisors.com/serving-veterans-after-hurricane-harvey-five-key-findings/"
+  blurb: "An estimated 100,000 Gulf Coast veterans applied for FEMA aid after Harvey and 60% reported home damage. Two years later about two-thirds still had no flood insurance."
+
+- title: "How School Districts Can Help With Census 2020"
+  outlet: "January Advisors"
+  date: 2019-08-13
+  url: "https://www.januaryadvisors.com/how-school-districts-can-help-with-census-2020/"
+  blurb: "Children ages 0 to 4 face the highest census undercount risk. A 1% Texas undercount would cost more than $3 billion in Medicaid and CHIP funding over a decade."
+
+- title: "How to Fight Human Trafficking with Data"
+  outlet: "January Advisors"
+  date: 2019-04-25
+  url: "https://www.januaryadvisors.com/how-to-fight-human-trafficking-with-data/"
+  blurb: "Mapping suspected illegal massage businesses against Texas schools found more than 35,000 students attending class within 1,000 feet of one. Online ad data showed trafficking activity rising after Hurricane Harvey."
+
+- title: "Making Texas Hard to Count: Citizenship & Census 2020"
+  outlet: "January Advisors"
+  date: 2019-02-21
+  url: "https://www.januaryadvisors.com/making-texas-hard-to-count-citizenship-census-2020/"
+  blurb: "About 22% of Texans live with a non-citizen. If every such household skipped the census over the citizenship question, Texas would lose more than $100 billion in federal funding over ten years."
+
+- title: "Why Houston Will Be Hard to Count in Census 2020"
+  outlet: "January Advisors"
+  date: 2018-11-30
+  url: "https://www.januaryadvisors.com/why-houston-will-be-hard-to-count-in-census-2020/"
+  blurb: "Harris County's low response score of 24% runs five points above the national average, driven by its high renter share, diversity, and young population. A 1% undercount would cost roughly $54 million a year."
+
+- title: "Did Late Openings at Nine Polling Locations in Harris County Affect Voter Turnout?"
+  outlet: "January Advisors"
+  date: 2018-11-13
+  url: "https://www.januaryadvisors.com/did-late-openings-at-nine-polling-locations-in-harris-county-affect-voter-turnout/"
+  blurb: "Harris County turnout rose from 34% in 2014 to 52% in 2018. Precincts tied to the nine late-opening polling places gained turnout faster than the county overall, up 93% against 56%."
+
+- title: "Human Trafficking Near Texas Public Schools"
+  outlet: "Children at Risk"
+  date: 2018-04-10
+  coauthors: "Jamey Caruthers"
+  url: "https://childrenatrisk.org/human_trafficking_near_schools_analysis/"
+  blurb: "The analysis located 689 suspected illegal massage businesses across Texas. More than 35,000 students attend schools within 1,000 feet of one, and Harris County held the largest concentration at 259."
+  coverage:
+    - outlet: "Houston Chronicle"
+      url: "https://www.chron.com/news/houston-texas/houston/article/Map-shows-massage-parlors-texas-houston-school-12826409.php"
+
+
+- title: "Number of Uninsured Children in Texas Could Increase 60% if Congress Fails to Renew CHIP"
+  outlet: "Children at Risk"
+  date: 2018-01-13
+  url: "https://childrenatrisk.org/number-of-uninsured-children-in-texas-could-increase-60-if-congress-fails-to-renew-chip/"
+  blurb: "Without CHIP reauthorization, uninsured Texas children would climb from about 650,000 to more than one million by the end of March 2018. Over half of Texas CHIP enrollees live in six counties."
+
+- title: "School districts with the top food programs for low-income students in Texas"
+  outlet: "Children at Risk"
+  date: 2017-12-04
+  coauthors: "Jenny Eyer"
+  url: "https://childrenatrisk.org/school-districts-with-the-top-food-programs-for-low-income-students-in-texas/"
+  blurb: "Rio Grande Valley and El Paso districts led the 2016-17 school meal rankings, with 80% to 90% of low-income students eating school breakfast and lunch. San Antonio ISD and Dallas ISD led among districts over 50,000 students."
+
+- title: "Who represents the 2.9 million Texas children affected by Hurricane Harvey?"
+  outlet: "Children at Risk"
+  date: 2017-09-07
+  url: "https://childrenatrisk.org/who-represents-the-2-9-million-texas-children-affected-by-hurricane-harvey/"
+  blurb: "Districts in the 58-county Harvey disaster area are represented by 44% of Texas House members and 58% of state senators. Nearly 3 million affected children fall under lawmakers from both parties."
+
+- title: "Hurricane Harvey keeps 1.4 million students out of public schools for at least a week"
+  outlet: "Children at Risk"
+  date: 2017-08-31
+  url: "https://childrenatrisk.org/hurricane-harvey-keeps-1-4-million-students-out-of-public-schools-for-at-least-a-week/"
+  blurb: "Harvey delayed the school year for about 1.4 million students across 117 districts and nearly 1,800 campuses. Close to 60% of those students were economically disadvantaged."
+
+- title: "Academic performance across Texas school districts"
+  outlet: "Children at Risk"
+  date: 2017-08-16
+  url: "https://childrenatrisk.org/academic-performance-across-texas-school-districts/"
+  blurb: "Only 14% of students in the average Texas district reached the Masters grade level standard on STAAR in 2015-16. Variation within large districts was wide, with Houston ISD campuses ranging from under 1% to above 80%."
+
+- title: "Sub-Saharan Africa will be home to growing shares of the world's Christians and Muslims"
+  outlet: "Pew Research Center"
+  date: 2017-04-19
+  url: "https://www.pewresearch.org/short-reads/2017/04/19/sub-saharan-africa-will-be-home-to-growing-shares-of-the-worlds-christians-and-muslims/"
+  blurb: "Sub-Saharan Africa's share of the world's Christians is projected to rise from 26% in 2015 to more than 40% by 2060. Europe's share falls from nearly a quarter to 14%."
+
+- title: "Why people with no religion are projected to decline as a share of the world's population"
+  outlet: "Pew Research Center"
+  date: 2017-04-07
+  coauthors: "Michael Lipka"
+  url: "https://www.pewresearch.org/short-reads/2017/04/07/why-people-with-no-religion-are-projected-to-decline-as-a-share-of-the-worlds-population/"
+  blurb: "The religiously unaffiliated population will grow to 1.2 billion by 2060 but shrink from 16% to 13% of the world's people. The unaffiliated are older and have fewer children than religiously affiliated people."
+
+- title: "The Changing Global Religious Landscape"
+  outlet: "Pew Research Center"
+  date: 2017-04-05
+  coauthors: "Conrad Hackett, Marcin Stonawski, and others"
+  url: "https://www.pewresearch.org/religion/2017/04/05/the-changing-global-religious-landscape/"
+  blurb: "Births to Muslim mothers are projected to outnumber births to Christian mothers by 2035. Only 10% of the world's newborns between 2010 and 2015 were born to religiously unaffiliated mothers."
+
+- title: "Christians remain world's largest religious group, but they are declining in Europe"
+  outlet: "Pew Research Center"
+  date: 2017-04-05
+  coauthors: "Conrad Hackett"
+  url: "https://www.pewresearch.org/short-reads/2017/04/05/christians-remain-worlds-largest-religious-group-but-they-are-declining-in-europe/"
+  blurb: "Christians are 31% of the world's population and still the largest religious group. In Europe, Christian deaths outnumbered Christian births by nearly 6 million between 2010 and 2015."
+
+- title: "Muslims in sub-Saharan Africa are twice as likely as Christians to have no formal education"
+  outlet: "Pew Research Center"
+  date: 2016-12-14
+  url: "https://www.pewresearch.org/short-reads/2016/12/14/muslims-in-sub-saharan-africa-are-twice-as-likely-as-christians-to-have-no-formal-education/"
+  blurb: "In sub-Saharan Africa, 65% of Muslim adults have no formal schooling. The figure for Christian adults is 30%."
+
+- title: "Religion and Education Around the World"
+  outlet: "Pew Research Center"
+  date: 2016-12-13
+  coauthors: "Conrad Hackett, Michaela Potančoková, Marcin Stonawski"
+  url: "https://www.pewresearch.org/religion/2016/12/13/religion-and-education-around-the-world/"
+  blurb: "Jews have the most years of formal schooling of any major religious group, and Muslims and Hindus the fewest. The youngest religiously unaffiliated adults have now passed Christians in average years of schooling."
+
+- title: "Child marriage is rare in the U.S., though this varies by state"
+  outlet: "Pew Research Center"
+  date: 2016-11-01
+  coauthors: "Aleksandra Sandstrom"
+  url: "https://www.pewresearch.org/short-reads/2016/11/01/child-marriage-is-rare-in-the-u-s-though-this-varies-by-state/"
+  blurb: "About 57,800 Americans ages 15 to 17 were married in 2014, or five of every 1,000 in that age group. West Virginia and Texas had the highest rates."
+
+- title: "Gender gap in religious service attendance has narrowed in U.S."
+  outlet: "Pew Research Center"
+  date: 2016-05-13
+  url: "https://www.pewresearch.org/short-reads/2016/05/13/gender-gap-in-religious-service-attendance-has-narrowed-in-u-s/"
+  blurb: "The gap between women's and men's weekly religious service attendance narrowed from 10 percentage points in the early 1970s to 6 points in the early 2010s. Women's attendance fell faster than men's."
+  coverage:
+    - outlet: "Salon"
+      url: "https://www.salon.com/2016/06/02/women_are_fleeing_the_church_partner/"
+
+
+- title: "The Gender Gap in Religion Around the World"
+  outlet: "Pew Research Center"
+  date: 2016-03-22
+  coauthors: "Conrad Hackett, Caryle Murphy, Anne Fengyan Shi"
+  url: "https://www.pewresearch.org/religion/2016/03/22/the-gender-gap-in-religion-around-the-world/"
+  blurb: "Across 192 countries women are generally more religious than men. The pattern is strongest among Christians and largely absent among Muslims, except in mosque attendance, where men attend more."
+
+- title: "Interfaith Marriage and Romantic Unions in the United States"
+  outlet: "Council on Contemporary Families"
+  date: 2014-02-04
+  url: "https://web.archive.org/web/20160404234153/https://contemporaryfamilies.org/interfaith-marriage-in-the-us/"
+  archived: true
+  blurb: "The share of U.S. marriages joining partners from different religions roughly doubled from the 1960s to the 2000s. A growing share of those couples keep separate religious identities rather than one partner converting."

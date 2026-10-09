@@ -1,0 +1,65 @@
+# Coverage that names or quotes me. NEWEST FIRST; the page uses sort: false,
+# so file order is page order.
+#
+# Required: title, outlet, url
+# Optional: date, archived
+#
+# No blurbs here on purpose. Listing the outlet, headline and date is enough;
+# describing what each piece said about the work reads as self-promotional.
+#
+# Inclusion rule: only items where I am named, or where the piece links to
+# our analysis. Pieces that cite the underlying research without naming
+# anyone are covered by the note at the bottom of press.qmd instead.
+#
+# Items that also appear as `coverage:` entries under a piece in
+# data/writing.yml are intentionally listed in both places.
+
+- title: "Debt Collection Case Surge Draws Push to Aid Pro Se Defendants"
+  outlet: "Bloomberg Law"
+  date: 2026-07-31
+  url: "https://news.bloomberglaw.com/banking-law/debt-collection-case-surge-draws-push-to-aid-pro-se-defendants"
+
+- title: "Debt Collectors Chase More Consumers in Court"
+  outlet: "Wall Street Journal"
+  date: 2026-07-16
+  url: "https://www.wsj.com/personal-finance/credit/debt-collectors-chase-more-consumers-in-court-f8d0ed3f"
+
+- title: "Debt collection lawsuits are rising in U.S. states. Here's what you need to know to report on them."
+  outlet: "Journalist's Resource"
+  date: 2026-01-21
+  url: "https://journalistsresource.org/economics/debt-collection-lawsuits/"
+
+- title: "Debt Collection Lawsuits Are Rising. Here’s What to Do to Fight Back."
+  outlet: "New York Times"
+  date: 2025-09-12
+  url: "https://www.nytimes.com/2025/09/12/your-money/debt-collection-lawsuits.html"
+
+- title: "In Harris County, your legal experience could vary wildly due to a 51-yr-old map"
+  outlet: "Houston Chronicle"
+  date: 2024-11-01
+  url: "https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/"
+
+- title: "At the fringes of Houston's prosperity, the city's eviction machine is running full throttle"
+  outlet: "Texas Tribune"
+  date: 2023-06-08
+  url: "https://www.texastribune.org/2023/06/08/houston-evictions-jackson-square/"
+
+- title: "Texas Education Agency's A-F accountability ratings reveal link to poverty"
+  outlet: "Community Impact"
+  date: 2018-12-06
+  url: "https://communityimpact.com/tomball-magnolia/news/texas-education-agencys-a-f-accountability-ratings-reveal-link-to-poverty/"
+
+- title: "How did low-income Texas schools fare under state's A-F rating system?"
+  outlet: "Austin American-Statesman"
+  date: 2018-08-19
+  url: "https://www.statesman.com/story/news/news/2018/08/20/how-did-low-income-texas-schools-fare-under-states-a-f-rating-system/9965638007/"
+
+- title: "Map shows suspected human trafficking fronts operating near Houston schools"
+  outlet: "Houston Chronicle"
+  date: 2018-04-11
+  url: "https://www.chron.com/news/houston-texas/houston/article/Map-shows-massage-parlors-texas-houston-school-12826409.php"
+
+- title: "Women are fleeing the church, and it's not hard to understand why"
+  outlet: "Salon"
+  date: 2016-06-02
+  url: "https://www.salon.com/2016/06/02/women_are_fleeing_the_church_partner/"

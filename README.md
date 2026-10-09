@@ -1,37 +1,224 @@
-## Welcome to GitHub Pages
+# davidmcclendon.github.io
 
-You can use the [editor on GitHub](https://github.com/davidmcclendon/davidmcclendon.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Personal site for David McClendon. Quarto website, no R or Python at render time.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Live at <https://davidmcclendon.github.io>.
 
-### Markdown
+## How it deploys
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+GitHub Pages serves the committed `docs/` folder directly (Settings → Pages →
+Deploy from a branch → `master` / `/docs`). There is no CI. The workflow is:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+quarto render          # writes docs/
+# inspect the output, then:
+git add -A && git commit -m "..." && git push
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Rendering locally and committing the output is deliberate. It means the published
+site can be inspected before it goes live, a bad change is a `git revert`, and
+nothing breaks when a GitHub Action or a pinned Quarto version goes stale.
 
-### Jekyll Themes
+`.nojekyll` at the repo root is required and Quarto copies it into `docs/`
+automatically. Without it GitHub runs Jekyll over the output and the CSS 404s.
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/davidmcclendon/davidmcclendon.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Editing content
 
-### Support or Contact
+Four pages (`index.qmd`, `work.qmd`, `press.qmd`, `cv.qmd`) plus `404.qmd`.
+Prose lives directly in the `.qmd` files. The three lists are data driven:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+`work.qmd` merges what used to be separate Research and Writing pages into one
+tabset: **Applied writing**, **Peer-reviewed**, **At a glance**. The lists come
+first deliberately, so the links are reachable without scrolling past the
+charts; both figures live in the third tab.
+
+| File | Feeds | Required keys |
+|---|---|---|
+| `data/publications.yml` | Work page, Peer-reviewed tab | `title`, `authors`, `year`, `venue` |
+| `data/writing.yml` | Work page, Applied writing tab | `title`, `outlet`, `date`, `url` |
+| `data/press.yml` | In the news page | `title`, `outlet`, `url` |
+
+Optional keys: `volume`, `doi`, `url`, `oa_url` (publications); `coauthors`,
+`blurb`, `archived`, `coverage` (writing); `date`, `archived` (press).
+
+`date` is optional on a press item. Because the listings use `sort: false`,
+an item with no date renders fine; it just shows no date. Use that rather than
+guessing a date.
+
+### Press items carry no blurb
+
+Items on the In the news page show outlet, headline and date only. Summarizing
+what each article said about the work reads as self-promotional, so the press
+template deliberately renders no description. Writing items do keep a `blurb`,
+because there it describes the research rather than the reception.
+
+Prose elsewhere on the site is first person.
+
+### Cross-linking coverage to a piece
+
+A `writing.yml` entry can carry a `coverage:` list naming outlets that covered
+that specific piece. It renders as a "Covered in" line under the blurb:
+
+```yaml
+- title: "Consumer Debt Filings Kept Climbing in 2025"
+  outlet: "January Advisors"
+  date: 2026-07-15
+  url: "https://..."
+  blurb: "..."
+  coverage:
+    - outlet: "Bloomberg Law"
+      url: "https://..."
+```
+
+Items listed as `coverage:` under a piece are **also** listed in
+`data/press.yml`, so they appear on the In the news page too. That duplication
+is deliberate: EJS listing templates only receive their own items, so a
+template cannot join across the two files. Keep the URL identical in both
+places so they stay in sync.
+
+Only add a `coverage:` entry when the article genuinely covers that specific
+piece. Coverage that quotes the research generally belongs on the In the news
+page alone.
+
+**All three files are newest first, and the listings use `sort: false`, so the
+order in the file is the order on the page.** To add an item, insert it at the top.
+
+### Record rows are a real two-column grid
+
+Each row is `.item` containing exactly two children: an aside (`.item-year` for
+publications, `.item-aside` carrying outlet and date for writing and press) and
+`.item-body`. An earlier version used `display: contents` on the EJS output to
+flatten children into the grid, which scrambled publication rows: with no
+leading metadata element the title landed in the narrow column and the venue
+wrapped back under it. Keep the two explicit children.
+
+## Two gotchas worth knowing
+
+1. **Quarto inverts EJS escaping.** In the templates under `ejs/`, `<%- %>`
+   escapes HTML and `<%= %>` does not. This is backwards from standard EJS. Use
+   `<%- %>` for all content and all `href` values. Getting it wrong breaks any
+   title containing `&` or a quote mark.
+2. **Emitted HTML in an EJS template must not be indented.** Quarto runs the
+   template output through the markdown processor, and indented lines become a
+   code block. The existing templates are flush left on purpose.
+
+## Charts
+
+Two inline SVG charts, both generated by R scripts in `viz/` and written as
+raw-HTML partials into `_viz/`, which the pages pull in with
+`{{< include >}}`. Quarto ignores `_`-prefixed directories, so the partials
+never become pages.
+
+```bash
+Rscript viz/build-map.R             # -> _viz/places-map.md     (About page)
+Rscript viz/build-writing-chart.R   # -> _viz/writing-chart.md  (Writing page)
+```
+
+**Rerun `build-writing-chart.R` after editing `data/writing.yml`.** It reads
+that file, so the chart silently goes stale otherwise. The map only changes if
+the city list in `build-map.R` changes.
+
+The SVG is included inline rather than via `<img>` so it inherits theme colors
+from CSS custom properties defined on `.viz` in `styles/_common.scss`.
+
+Design decisions worth preserving:
+
+- **Both charts are single-series, so neither has a legend.** On the writing
+  chart the row position already encodes the outlet; coloring by outlet too
+  would be redundant and would drag in a six-hue palette that needs its own
+  colorblind validation.
+- **The dark mark is a separate color, not a lightened light mark.** The light
+  accent `#9c4a2f` fails the dark-mode lightness band (L 0.749 against a
+  0.48-0.67 target) and the chroma floor, so dark uses `#d6572b`, stepped on the
+  same hue and validated against the dark surface. Both clear 3:1 contrast.
+  Re-validate if either changes.
+- **Text never wears the mark color.** Labels and ticks use text tokens.
+- Each mark carries an invisible `r=11` hit circle so hover targets are not
+  pinpoint, and an SVG `<title>` for a native tooltip with no JavaScript.
+- Map geometry is `maps::map("state")` projected to EPSG:5070 (Albers equal
+  area), so state areas are not distorted. City label offsets in
+  `build-map.R` are hand-set to clear three collisions: Houston/Galveston sit
+  about 7px apart at this scale, Richmond/Washington about 21px.
+- The writing chart's table view is the 41-item list directly below it, so no
+  value is reachable only by hovering.
+
+## CV PDF
+
+`assets/cv-mcclendon.pdf` is generated from `cv-pdf/cv-pdf.qmd` using Quarto's
+bundled Typst, so it needs no LaTeX install:
+
+```bash
+quarto render cv-pdf/cv-pdf.qmd
+cp docs/cv-pdf/cv-pdf.pdf assets/cv-mcclendon.pdf && rm -rf docs/cv-pdf
+```
+
+`cv-pdf/` is excluded from the website render via `project: render:` in
+`_quarto.yml`, so it never becomes a site page.
+
+**Important:** the source Word CV (`~/Documents/Resume/CV_McClendonDM_JA.docx`)
+ends with a References section listing three colleagues' personal email addresses
+and cell phone numbers. That section is cut from the web PDF and must stay cut.
+Re-check it after any CV update.
+
+## Custom domain
+
+If `davidmcclendon.com` gets registered, three changes:
+
+1. Create a `CNAME` file at the repo root containing `davidmcclendon.com`. Quarto
+   copies it into `docs/` automatically, same as `.nojekyll`.
+2. Update `site-url` in `_quarto.yml` and the two absolute URLs in
+   `styles/head.html` (the JSON-LD block).
+3. Point DNS at GitHub Pages and set the domain in repo Settings → Pages.
+
+## Design
+
+**Plat and survey sheet.** The visual language comes from the subject matter:
+court records, parcels, precinct boundaries. Hairline rules, hatched area
+fills, monospace for dates and identifiers, a ruled figure head on every chart.
+
+Light mode is paper; dark mode is blueprint, its negative. The dark palette is
+a separate set of steps validated against the blueprint ground, not a flip of
+the light one.
+
+| Role | Light (paper) | Dark (blueprint) |
+|---|---|---|
+| ground | `#f7f5f0` | `#0f1b27` |
+| ink / text | `#16202a` | `#e3ecf2` |
+| muted | `#5b6670` | `#9db2c2` |
+| rule | `#c9c4b8` | `#30475a` |
+| emphasis mark | `#b03a2e` | `#d9654e` |
+| register (links, outlets) | `#3c6e8f` | `#8fb4cc` |
+
+Both emphasis marks pass the dataviz lightness band, chroma floor and 3:1
+contrast against their own surface. All text pairs clear 4.5:1. Re-validate if
+any of these change.
+
+Type is **Archivo** for text, **Archivo Narrow** for headings, **IBM Plex
+Mono** for dates, identifiers and figure captions.
+
+### Things that will bite
+
+- **No bootswatch base.** `_quarto.yml` loads only our own SCSS. The bootswatch
+  themes inject rules like `p { font-family: Georgia }` that silently override
+  the design.
+- **Never put `url(#some-id)` in SCSS.** Quarto's Sass resolver treats it as a
+  file path and the render fails. Pattern fills go on the SVG element as a
+  presentation attribute instead.
+- **Size SVG text in `px`, not `rem`.** Inside a scaled `viewBox` a rem value
+  gets multiplied by the viewport scale and renders huge.
+- **Escape `&` as `&amp;` in generated SVG.** Browsers tolerate it inline;
+  anything parsing strictly does not.
+- Hatch patterns adapt to the theme because the pattern background uses
+  `var(--viz-surface)`, so one set of pattern ids serves both modes.
+
+
+## Environment note
+
+`quarto` on this machine is a symlink into RStudio:
+
+```
+~/.local/bin/quarto -> /Applications/RStudio.app/Contents/Resources/app/quarto/bin/quarto
+```
+
+Built with Quarto 1.9.36. Updating RStudio changes the build tool, which can make
+every page churn in a single diff. That is expected, not a bug.

@@ -1,0 +1,27 @@
+---
+title: "In the news"
+description: "Coverage that quotes my research or links to it."
+listing:
+  - id: press
+    contents: data/press.yml
+    template: ejs/press.ejs
+    type: custom
+    sort: false
+    sort-ui: false
+    filter-ui: false
+    date-format: "MMMM YYYY"
+---
+
+::: {#press}
+:::
+
+## Wider coverage
+
+The Pew Research Center reports on religion and education and on the global
+gender gap in religion were covered by the New York Times, NPR, the Guardian,
+the Wall Street Journal, and the Washington Post, among others. Those pieces
+cite the reports rather than the individual researchers.
+
+The Children at Risk analysis of human trafficking near Texas schools was
+picked up by the Dallas Morning News and the Fort Worth Star-Telegram in
+addition to the Houston Chronicle piece listed above.

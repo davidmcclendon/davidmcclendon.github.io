@@ -1,0 +1,15 @@
+<div class="item-list">
+<% for (const item of items) { %>
+<div class="item">
+<span class="item-year"><%- item.year %></span>
+<div class="item-body">
+<span class="item-title"><% if (item.url) { %><a href="<%- item.url %>"><%- item.title %></a><% } else { %><%- item.title %><% } %></span>
+<span class="item-authors"><%- item.authors %></span>
+<span class="item-meta"><em><%- item.venue %></em><% if (item.volume) { %>, <%- item.volume %><% } %></span>
+<% if (item.doi || item.oa_url) { %>
+<span class="item-links"><% if (item.doi) { %><a href="https://doi.org/<%- item.doi %>">doi:<%- item.doi %></a><% } %><% if (item.oa_url) { %><a href="<%- item.oa_url %>">Free full text</a><% } %></span>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>

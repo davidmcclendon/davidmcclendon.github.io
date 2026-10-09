@@ -1,0 +1,146 @@
+---
+title: "David McClendon, Ph.D."
+subtitle: "Curriculum vitae"
+format:
+  typst:
+    papersize: us-letter
+    margin:
+      x: 1.1in
+      y: 1in
+    fontsize: 10pt
+    mainfont: "Helvetica Neue"
+execute:
+  enabled: false
+---
+
+## Employment
+
+2018-present Partner and Principal Consultant, January Advisors
+
+
+2018 Co-Director of Research, Children at Risk
+
+2017-2018 Assistant Director of Research, Children at Risk
+
+2015-2017 Research Associate, Pew Research Center
+
+2012-2014 Statistical Consultant and Graduate Research Assistant, Population Research Center at University of Texas at Austin
+
+2011 (summer) Research Assistant, Pew Research Center
+
+2010-2011 Teaching Assistant, University of Texas at Austin
+
+## Education
+
+2015 Ph.D. Sociology, University of Texas at Austin
+
+2011 M.A. Sociology, University of Texas at Austin
+
+2008 B.A. Religious Studies, College of William & Mary
+
+## Methodological Expertise
+
+Geospatial analysis, OLS and logistic regression, longitudinal data analysis (e.g., event history, panel series), multilevel/hierarchical modeling, demographic techniques (e.g., population projections), survey sampling methods
+
+## Statistical Tools and other Software Training
+
+R, Stata, Data visualization, Python, GIS, Tableau, Excel, WordPress
+
+## Featured Publications
+
+McClendon, D. (2022). "Essay: 5 minutes per eviction hearing? Why Harris County should redraw court maps." Houston Chronicle. <https://bit.ly/3Hsea8w>
+
+McClendon, D. (2022). "Redrawing Houston's Eviction Courts: Any Map is Better Than What We Have Now." January Advisors. <https://bit.ly/44nfFPd>
+
+McClendon, D. (2019). "Top 5 Takeaways About the Vote Your Way Campaign." January Advisors. <https://bit.ly/40UleBV>
+
+McClendon, D. (2018). "Did Late Openings at Nine Polling Locations in Harris County Affect Voter Turnout?" January Advisors. <https://bit.ly/2DC6p0H>
+
+## Peer-Reviewed Articles
+
+McClendon, D. (2018). "Crossing Boundaries: 'Some College' and the Role of Schools in Educational Assortative Mating." *Journal of Marriage and Family*, 80(4): 812-825.
+
+Schnabel, L., C. Hackett, & D. McClendon. (2018). "Where Men Appear More Religious Than Women: Turning a Gender Lens on Religion in Israel. *Journal for the Scientific Study of Religion*, 57(1): 80-94. doi:10.1111/jssr.12498
+
+McClendon, D., C. Hackett, M. Potančoková, M. Stonawski, & V. Skirbekk. (2018). "Women's Education in the Muslim World." *Population and Development Review*, 44(2): 311-342.
+
+Kilanski, K. & D. McClendon. (2017). "Dating Across and Hooking 'Up': Status and Relationship Formation at an Elite Liberal Arts University." *Demographic Research*, 37:1917-1932.
+
+McClendon, D. (2016). "Religion, Marriage Markets, and Assortative Mating in the United States." *Journal of Marriage and Family*, 78(5):1399-1421. doi:10.1111/jomf.12353
+
+McClendon, D., J. C-L Kuo, & R.K. Raley. (2014). "Opportunities to Meet: Occupational Education and Marriage Formation in Young Adulthood." *Demography*, 51(4):1319-44.
+
+McClendon, D. & C. Hackett. (2014). "When People Shed Religious Identity in Ireland and Austria: Evidence from Censuses." *Demographic Research*, 31:1297-1310.
+
+McClendon, D. (2014). "It's Not Business, It's Personal: Implicit Religion in the Corporate Personhood Debate." *Implicit Religion*, 17(1): 47-61.
+
+## Other Reports and Articles
+
+McClendon, D. (2023). "A scary new era for evictions in Harris County." January Advisors. <https://bit.ly/42cn7uS>
+
+McClendon, D. (2021). "Galveston has a housing crisis on multiple fronts." January Advisors. <https://bit.ly/44va1ea>
+
+McClendon, D. (2021). "Houston-based care coordination pilot program improves health outcomes." January Advisors. <https://bit.ly/3NtXMbv>
+
+McClendon, D. (2019). "Making Texas Hard to Count: Citizenship & Census 2020." January Advisors. <https://bit.ly/2GzsFtH>
+
+McClendon, D. (2018). "Why Houston Will Be Hard to Count in Census 2020." January Advisors. <https://bit.ly/2R7C6pN>
+
+McClendon, D. & Caruthers, J. (2018). "Human trafficking near public schools." Children At Risk. Analysis and interactive map: <https://bit.ly/2rkDky8>
+
+Media coverage: Houston Chronicle, Dallas Morning News, Fort Worth Star Telegram
+
+McClendon, D. (2018). "Number of uninsured children in Texas could increase by 60% if Congress fails to renew CHIP." Children At Risk. <https://bit.ly/2DacxO0>
+
+McClendon, D. & J. Eyer. (2017). "School districts with the top food programs for low-income students in Texas." Children At Risk. <https://bit.ly/2jOBdyV>
+
+McClendon, D., S. Everitt & P. Gill. (2017). "How many low-income children in Texas live in a child care desert?" Children At Risk. <https://bit.ly/2fNie65>
+
+McClendon, D. (2017). "Who represents the 2.9 million children affected by Hurricane Harvey?" Children At Risk. <https://bit.ly/2eKMUo8>
+
+McClendon, D. (2017). "Hurricane Harvey keeps 1.4 million students out of public school for at least a week." Children At Risk. <https://bit.ly/2iJG2MD>
+
+McClendon, D. (2017). "Academic performance across Texas schools districts." Children At Risk. <https://bit.ly/2Gq5kdg>
+
+Hackett, C., M. Stonawski, M. Potančoková, V. Skirbekk, P. Connor, D. McClendon, & S. Kramer. (2017). *The Changing Global Religious Landscape*. Pew Research Center. <http://pewrsr.ch/2o9QApo>
+
+McClendon, D. (2016). "Muslims in sub-Saharan Africa are twice as likely as Christians to have no formal education." Pew Research Center. <http://pewrsr.ch/2hEjdst>
+
+Hackett, C., D. McClendon, C. Murphy, M. Potančoková, M. Stonawski, V. Skirbekk. (2016). *Religion and Education Around the World*. Pew Research Center. <http://pewrsr.ch/2htiAie>
+
+Media coverage: [New York Times](http://www.nytimes.com/2016/12/13/world/christians-educated-religious-minorities-pew.html?src=twr&_r=2&smid=tw-nytimes&smtyp=cur), [NPR](http://www.npr.org/sections/thetwo-way/2016/12/13/505427739/study-shows-the-u-s-attracts-an-elite-muslim-and-hindu-population), [the Guardian](https://www.theguardian.com/world/2016/dec/13/jews-are-worlds-best-educated-religious-group-study-reveals), Wall Street Journal, and more
+
+McClendon, D. (2016). "Child marriage is rare in the U.S., though this varies by state." Pew Research Center. <http://pewrsr.ch/2eWW0gy>
+
+McClendon, D. (2016). "Gender gap in religious service attendance has narrowed in U.S." Pew Research Center. <http://pewrsr.ch/1TC4cPd>
+
+Media coverage: [Religion Dispatches](http://religiondispatches.org/women-are-leaving-church-and-the-reason-seems-clear/), Christian Today, Minneapolis Star Tribune
+
+Hackett, C., C. Murphy, and D. McClendon. (2016). *The Gender Gap in Religion Around the World*. Washington, D.C.: Pew Research Center. http://www.pewforum.org/2016/03/22/the-gender-gap-in-religion-around-the-world/
+
+Media coverage: 40+ newspapers, including [Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/03/30/why-women-are-more-religious-than-men/?utm_term=.afba0cc5a792), [the Guardian](https://www.theguardian.com/world/2016/mar/22/women-more-religiously-devout-than-men-new-study-finds)
+
+McClendon, D. (2014)."Interfaith Marriage and Romantic Unions in the United States." Council on Contemporary Family. [www.contemporaryfamilies.org/interfaith-marriage-in-the-us/](http://www.contemporaryfamilies.org/interfaith-marriage-in-the-us/)
+
+Media coverage: [Slate](http://www.slate.com/blogs/xx_factor/2014/02/04/interfaith_marriage_study_couples_who_keep_their_religious_traditions_separate.html)
+
+McClendon, D. (2013). Review of [Shall the Religious Inherit the Earth? Demography and Politics in the Twenty-First Century]{.underline}, by Eric Kaufmann. *Sociology of Religion*. doi:10.1093/socrel/srt026
+
+## Fellowships and Awards
+
+2014-15 Graduate School Named Continuing Fellowship
+
+University of Texas at Austin (\$38,000)
+
+2013-14 NICHD Pre-doctoral Research Traineeship (advisor: Kelly Raley)
+
+Population Research Center, University of Texas at Austin (\$31,247)
+
+2012-13 NICHD Pre-doctoral Research Traineeship (advisor: Kelly Raley)
+
+Population Research Center, University of Texas at Austin (\$31,247)
+
+2009-10 Sociology Department Mentored Fellowship
+
+University of Texas at Austin (\$21,000)
+

@@ -1,0 +1,96 @@
+# Peer-reviewed articles and book review. NEWEST FIRST; the page uses
+# sort: false, so file order is page order.
+#
+# Required: title, authors, year, venue
+# Optional: volume, doi, url, oa_url
+#
+# Citation details verified against Crossref, PubMed Central, OpenAlex, and
+# publisher pages. Where the Aug 2024 CV differed, the publisher record wins.
+
+- title: "Impact of adverse childhood experiences, positive childhood experiences and adult protective and risk factors on health in a statewide representative sample"
+  authors: "Kotz, K., R. Gilgoff, J. Gassen, D. Bhushan, J. Schuetz, W. Barrera, D. McClendon, & G. M. Slavich"
+  year: 2026
+  venue: "Family Medicine and Community Health"
+  volume: "14(3): e003963"
+  doi: "10.1136/fmch-2026-003963"
+  url: "https://doi.org/10.1136/fmch-2026-003963"
+  oa_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC13504943/"
+
+- title: 'Crossing Boundaries: "Some College," Schools, and Educational Assortative Mating'
+  authors: "McClendon, D."
+  year: 2018
+  venue: "Journal of Marriage and Family"
+  volume: "80(4): 812-825"
+  doi: "10.1111/jomf.12482"
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/jomf.12482"
+  oa_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC9624488/"
+
+- title: "Women's Education in the Muslim World"
+  authors: "McClendon, D., C. Hackett, M. Potančoková, M. Stonawski, & V. Skirbekk"
+  year: 2018
+  venue: "Population and Development Review"
+  volume: "44(2): 311-342"
+  doi: "10.1111/padr.12142"
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/padr.12142"
+
+- title: "Where Men Appear More Religious Than Women: Turning a Gender Lens on Religion in Israel"
+  authors: "Schnabel, L., C. Hackett, & D. McClendon"
+  year: 2018
+  venue: "Journal for the Scientific Study of Religion"
+  volume: "57(1): 80-94"
+  doi: "10.1111/jssr.12498"
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/jssr.12498"
+  oa_url: "https://osf.io/preprints/socarxiv/n3cw5/"
+
+- title: "Dating Across and Hooking 'Up': Status and Relationship Formation at an Elite Liberal Arts University"
+  authors: "Kilanski, K. & D. McClendon"
+  year: 2017
+  venue: "Demographic Research"
+  volume: "37(60): 1917-1932"
+  doi: "10.4054/DemRes.2017.37.60"
+  url: "https://www.demographic-research.org/articles/volume/37/60"
+  oa_url: "https://www.demographic-research.org/volumes/vol37/60/37-60.pdf"
+
+- title: "Religion, Marriage Markets, and Assortative Mating in the United States"
+  authors: "McClendon, D."
+  year: 2016
+  venue: "Journal of Marriage and Family"
+  volume: "78(5): 1399-1421"
+  doi: "10.1111/jomf.12353"
+  url: "https://onlinelibrary.wiley.com/doi/10.1111/jomf.12353"
+  oa_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC5089166/"
+
+- title: "Opportunities to Meet: Occupational Education and Marriage Formation in Young Adulthood"
+  authors: "McClendon, D., J. C-L Kuo, & R. K. Raley"
+  year: 2014
+  venue: "Demography"
+  volume: "51(4): 1319-1344"
+  doi: "10.1007/s13524-014-0313-x"
+  url: "https://read.dukeupress.edu/demography/article/51/4/1319/169503"
+  oa_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4133976/"
+
+- title: "When People Shed Religious Identity in Ireland and Austria: Evidence from Censuses"
+  authors: "McClendon, D. & C. Hackett"
+  year: 2014
+  venue: "Demographic Research"
+  volume: "31(43): 1297-1310"
+  doi: "10.4054/DemRes.2014.31.43"
+  url: "https://www.demographic-research.org/articles/volume/31/43"
+  oa_url: "https://www.demographic-research.org/volumes/vol31/43/31-43.pdf"
+
+- title: "It's Not Business, It's Personal: Implicit Religion in the Corporate Personhood Debate"
+  authors: "McClendon, D."
+  year: 2014
+  venue: "Implicit Religion"
+  volume: "17(1): 47-61"
+  doi: "10.1558/imre.v17i1.47"
+  url: "https://doi.org/10.1558/imre.v17i1.47"
+  oa_url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4970755/"
+
+- title: "Review of Shall the Religious Inherit the Earth? Demography and Politics in the Twenty-First Century, by Eric Kaufmann"
+  authors: "McClendon, D."
+  year: 2013
+  venue: "Sociology of Religion"
+  volume: "74(3): 417-419"
+  doi: "10.1093/socrel/srt026"
+  url: "https://academic.oup.com/socrel/article-abstract/74/3/417/1640161"

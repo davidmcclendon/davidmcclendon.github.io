@@ -1,0 +1,15 @@
+<div class="item-list">
+<% for (const item of items) { %>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag"><%- item.outlet %></span><span class="item-meta"><%- item.date %></span></span>
+<div class="item-body">
+<span class="item-title"><a href="<%- item.url %>"><%- item.title %></a></span>
+<% if (item.coauthors) { %><span class="item-authors">with <%- item.coauthors %></span><% } %>
+<% if (item.blurb) { %><p class="item-blurb"><%- item.blurb %></p><% } %>
+<% if (item.coverage && item.coverage.length) { %>
+<p class="item-coverage"><span class="coverage-label">Covered in</span> <% for (let i = 0; i < item.coverage.length; i++) { %><a href="<%- item.coverage[i].url %>"><%- item.coverage[i].outlet %></a><% if (i < item.coverage.length - 1) { %>, <% } %><% } %></p>
+<% } %>
+</div>
+</div>
+<% } %>
+</div>

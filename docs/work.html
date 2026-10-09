@@ -1,0 +1,1476 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted.">
+
+<title>Research and writing – David McClendon</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<link href="./assets/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dde27a0fd72f34eccc88e02a235d61da.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-157350693cb0120b0bc462a0221ebaeb.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dde27a0fd72f34eccc88e02a235d61da.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-f91505211ba41a2aa23a7e55d86fd3b4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-545d51a796a835deb47538a4d084452a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f91505211ba41a2aa23a7e55d86fd3b4.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-peer-reviewed .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-authors','listing-year','listing-venue','listing-volume','listing-doi','listing-url','listing-oa_url',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-authors","listing-year","listing-venue","listing-volume","listing-doi","listing-url","listing-oa_url"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-peer-reviewed'] = new List('listing-peer-reviewed', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-writing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-outlet','listing-date','listing-coauthors','listing-url','listing-blurb','listing-coverage','listing-archived',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-outlet","listing-date","listing-coauthors","listing-url","listing-blurb","listing-coverage","listing-archived"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-writing'] = new List('listing-writing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&amp;family=Archivo+Narrow:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "David McClendon",
+  "honorificSuffix": "Ph.D.",
+  "jobTitle": "Partner and Principal Consultant",
+  "worksFor": { "@type": "Organization", "name": "January Advisors", "url": "https://www.januaryadvisors.com" },
+  "url": "https://davidmcclendon.github.io",
+  "image": "https://davidmcclendon.github.io/assets/headshot-og.jpg",
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "University of Texas at Austin" },
+    { "@type": "CollegeOrUniversity", "name": "College of William & Mary" }
+  ],
+  "knowsAbout": ["demography","sociology","housing policy","eviction","consumer debt","civil courts","data visualization"],
+  "sameAs": [
+    "https://scholar.google.com/citations?user=334SIp0AAAAJ",
+    "https://www.linkedin.com/in/david-mcclendon/",
+    "https://github.com/davidmcclendon"
+  ]
+}
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<meta property="og:title" content="Research and writing – David McClendon">
+<meta property="og:description" content="Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted.">
+<meta property="og:image" content="https://davidmcclendon.github.io/assets/headshot-og.jpg">
+<meta property="og:site_name" content="David McClendon">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">David McClendon</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./work.html" aria-current="page"> 
+<span class="menu-text">Work</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./press.html"> 
+<span class="menu-text">In the news</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./cv.html"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://scholar.google.com/citations?hl=en&amp;user=334SIp0AAAAJ"> <i class="bi bi-mortarboard" role="img" aria-label="Google Scholar">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/david-mcclendon/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/davidmcclendon"> <i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:david@januaryadvisors.com"> <i class="bi bi-envelope" role="img" aria-label="Email">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Research and writing</h1>
+</div>
+
+<div>
+  <div class="description">
+    Ten peer-reviewed articles, forty-one pieces of applied research and commentary, and how the subject matter has shifted.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">At a glance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Applied writing</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Peer-reviewed</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="fig-head"><h3>How the work has shifted</h3><span class="fig-no">FIG. 1 — RIDGE DENSITY</span></div>
+<figure class="viz viz-scroll figure">
+<svg viewbox="0 0 640 286" role="img" aria-labelledby="tp-t tp-d" class="viz-topics">
+<defs>
+<pattern id="hatch-ink" width="5" height="5" patterntransform="rotate(45)" patternunits="userSpaceOnUse"><rect class="hatch-bg" width="5" height="5"></rect><line class="hatch-ink-line" x1="0" y1="0" x2="0" y2="5"></line></pattern>
+<pattern id="hatch-red" width="4" height="4" patterntransform="rotate(45)" patternunits="userSpaceOnUse"><rect class="hatch-bg" width="4" height="4"></rect><line class="hatch-red-line" x1="0" y1="0" x2="0" y2="4"></line></pattern>
+</defs>
+<title id="tp-t">What I have worked on, by year</title>
+<desc id="tp-d">A ridgeline chart. Six overlapping density curves, one per subject area, sharing a year axis and a common vertical scale. Religious demography and family research peak around 2016 and fade after 2018. Courts, debt and housing begins in 2021 and rises to the present.</desc>
+<g class="viz-pt"><title>Religion and global demography: 15 items, 2013 to 2018</title><path class="viz-ridge" fill="url(#hatch-ink)" d="M166 80L166 75.06L168.1 74.41L170.2 73.69L172.4 72.92L174.5 72.09L176.6 71.21L178.7 70.28L180.8 69.29L182.9 68.25L185.1 67.18L187.2 66.06L189.3 64.92L191.4 63.76L193.5 62.58L195.7 61.4L197.8 60.22L199.9 59.06L202 57.92L204.1 56.82L206.3 55.77L208.4 54.76L210.5 53.82L212.6 52.95L214.7 52.14L216.8 51.42L219 50.77L221.1 50.18L223.2 49.67L225.3 49.22L227.4 48.82L229.6 48.45L231.7 48.12L233.8 47.79L235.9 47.45L238 47.09L240.2 46.69L242.3 46.23L244.4 45.69L246.5 45.07L248.6 44.34L250.7 43.5L252.9 42.54L255 41.46L257.1 40.26L259.2 38.95L261.3 37.53L263.5 36.02L265.6 34.42L267.7 32.78L269.8 31.09L271.9 29.38L274.1 27.69L276.2 26.03L278.3 24.43L280.4 22.91L282.5 21.49L284.6 20.2L286.8 19.07L288.9 18.08L291 17.28L293.1 16.67L295.2 16.24L297.4 16.03L299.5 16L301.6 16.19L303.7 16.57L305.8 17.14L308 17.91L310.1 18.85L312.2 19.97L314.3 21.23L316.4 22.64L318.5 24.19L320.7 25.85L322.8 27.63L324.9 29.49L327 31.43L329.1 33.44L331.3 35.49L333.4 37.59L335.5 39.72L337.6 41.86L339.7 44L341.9 46.13L344 48.25L346.1 50.34L348.2 52.38L350.3 54.38L352.4 56.33L354.6 58.2L356.7 60.01L358.8 61.75L360.9 63.4L363 64.97L365.2 66.44L367.3 67.83L369.4 69.12L371.5 70.32L373.6 71.44L375.8 72.45L377.9 73.38L380 74.23L382.1 74.99L384.2 75.68L386.3 76.29L388.5 76.83L390.6 77.31L392.7 77.72L394.8 78.09L396.9 78.4L399.1 78.67L401.2 78.9L403.3 79.1L405.4 79.26L407.5 79.4L409.7 79.52L411.8 79.61L413.9 79.69L416 79.75L418.1 79.81L420.2 79.85L422.4 79.88L424.5 79.91L426.6 79.93L428.7 79.95L430.8 79.96L433 79.97L435.1 79.98L437.2 79.98L439.3 79.99L441.4 79.99L443.6 79.99L445.7 79.99L447.8 80L449.9 80L452 80L454.1 80L456.3 80L458.4 80L460.5 80L462.6 80L464.7 80L466.9 80L469 80L471.1 80L473.2 80L475.3 80L477.5 80L479.6 80L481.7 80L483.8 80L485.9 80L488 80L490.2 80L492.3 80L494.4 80L496.5 80L498.6 80L500.8 80L502.9 80L505 80L507.1 80L509.2 80L511.4 80L513.5 80L515.6 80L517.7 80L519.8 80L521.9 80L524.1 80L526.2 80L528.3 80L530.4 80L532.5 80L534.7 80L536.8 80L538.9 80L541 80L543.1 80L545.3 80L547.4 80L549.5 80L551.6 80L553.7 80L555.8 80L558 80L560.1 80L562.2 80L564.3 80L566.4 80L568.6 80L570.7 80L572.8 80L574.9 80L577 80L579.2 80L581.3 80L583.4 80L585.5 80L587.6 80L589.7 80L591.9 80L594 80L596.1 80L598.2 80L600.3 80L602.5 80L604.6 80L606.7 80L608.8 80L610.9 80L613.1 80L615.2 80L617.3 80L619.4 80L621.5 80L623.6 80L625.8 80L627.9 80L630 80L630 80Z"></path><text class="viz-ridge-label" x="154" y="77" text-anchor="end">Religion &amp; demography <tspan class="viz-row-n">15</tspan></text></g>
+<g class="viz-pt"><title>Marriage, family, and education: 4 items, 2014 to 2018</title><path class="viz-ridge" fill="url(#hatch-ink)" d="M166 116L166 115.48L168.1 115.38L170.2 115.26L172.4 115.13L174.5 114.97L176.6 114.8L178.7 114.6L180.8 114.39L182.9 114.15L185.1 113.89L187.2 113.61L189.3 113.31L191.4 112.99L193.5 112.65L195.7 112.3L197.8 111.93L199.9 111.56L202 111.18L204.1 110.8L206.3 110.42L208.4 110.05L210.5 109.69L212.6 109.35L214.7 109.02L216.8 108.72L219 108.44L221.1 108.19L223.2 107.97L225.3 107.78L227.4 107.61L229.6 107.47L231.7 107.36L233.8 107.27L235.9 107.19L238 107.13L240.2 107.08L242.3 107.03L244.4 106.97L246.5 106.91L248.6 106.84L250.7 106.75L252.9 106.65L255 106.51L257.1 106.36L259.2 106.17L261.3 105.95L263.5 105.71L265.6 105.44L267.7 105.15L269.8 104.83L271.9 104.49L274.1 104.14L276.2 103.77L278.3 103.4L280.4 103.03L282.5 102.66L284.6 102.3L286.8 101.95L288.9 101.62L291 101.3L293.1 101.01L295.2 100.74L297.4 100.51L299.5 100.3L301.6 100.12L303.7 99.98L305.8 99.88L308 99.81L310.1 99.78L312.2 99.79L314.3 99.84L316.4 99.93L318.5 100.06L320.7 100.22L322.8 100.43L324.9 100.68L327 100.96L329.1 101.29L331.3 101.65L333.4 102.05L335.5 102.48L337.6 102.95L339.7 103.44L341.9 103.96L344 104.5L346.1 105.06L348.2 105.64L350.3 106.22L352.4 106.82L354.6 107.42L356.7 108.01L358.8 108.6L360.9 109.18L363 109.74L365.2 110.29L367.3 110.81L369.4 111.31L371.5 111.79L373.6 112.23L375.8 112.65L377.9 113.04L380 113.4L382.1 113.72L384.2 114.02L386.3 114.29L388.5 114.53L390.6 114.74L392.7 114.93L394.8 115.1L396.9 115.24L399.1 115.37L401.2 115.48L403.3 115.57L405.4 115.65L407.5 115.71L409.7 115.77L411.8 115.81L413.9 115.85L416 115.88L418.1 115.91L420.2 115.93L422.4 115.94L424.5 115.96L426.6 115.97L428.7 115.97L430.8 115.98L433 115.98L435.1 115.99L437.2 115.99L439.3 115.99L441.4 116L443.6 116L445.7 116L447.8 116L449.9 116L452 116L454.1 116L456.3 116L458.4 116L460.5 116L462.6 116L464.7 116L466.9 116L469 116L471.1 116L473.2 116L475.3 116L477.5 116L479.6 116L481.7 116L483.8 116L485.9 116L488 116L490.2 116L492.3 116L494.4 116L496.5 116L498.6 116L500.8 116L502.9 116L505 116L507.1 116L509.2 116L511.4 116L513.5 116L515.6 116L517.7 116L519.8 116L521.9 116L524.1 116L526.2 116L528.3 116L530.4 116L532.5 116L534.7 116L536.8 116L538.9 116L541 116L543.1 116L545.3 116L547.4 116L549.5 116L551.6 116L553.7 116L555.8 116L558 116L560.1 116L562.2 116L564.3 116L566.4 116L568.6 116L570.7 116L572.8 116L574.9 116L577 116L579.2 116L581.3 116L583.4 116L585.5 116L587.6 116L589.7 116L591.9 116L594 116L596.1 116L598.2 116L600.3 116L602.5 116L604.6 116L606.7 116L608.8 116L610.9 116L613.1 116L615.2 116L617.3 116L619.4 116L621.5 116L623.6 116L625.8 116L627.9 116L630 116L630 116Z"></path><text class="viz-ridge-label" x="154" y="113" text-anchor="end">Marriage &amp; family <tspan class="viz-row-n">4</tspan></text></g>
+<g class="viz-pt"><title>Children and education policy: 8 items, 2017 to 2026</title><path class="viz-ridge" fill="url(#hatch-ink)" d="M166 152L166 152L168.1 152L170.2 152L172.4 152L174.5 152L176.6 152L178.7 152L180.8 152L182.9 152L185.1 152L187.2 152L189.3 152L191.4 152L193.5 152L195.7 152L197.8 152L199.9 152L202 151.99L204.1 151.99L206.3 151.99L208.4 151.98L210.5 151.98L212.6 151.97L214.7 151.96L216.8 151.95L219 151.93L221.1 151.91L223.2 151.88L225.3 151.84L227.4 151.79L229.6 151.73L231.7 151.66L233.8 151.57L235.9 151.46L238 151.32L240.2 151.16L242.3 150.96L244.4 150.72L246.5 150.44L248.6 150.1L250.7 149.71L252.9 149.26L255 148.73L257.1 148.14L259.2 147.45L261.3 146.68L263.5 145.82L265.6 144.86L267.7 143.8L269.8 142.64L271.9 141.38L274.1 140.02L276.2 138.57L278.3 137.03L280.4 135.41L282.5 133.72L284.6 131.98L286.8 130.19L288.9 128.38L291 126.56L293.1 124.76L295.2 122.98L297.4 121.25L299.5 119.6L301.6 118.03L303.7 116.57L305.8 115.24L308 114.05L310.1 113L312.2 112.12L314.3 111.41L316.4 110.87L318.5 110.52L320.7 110.34L322.8 110.33L324.9 110.5L327 110.82L329.1 111.3L331.3 111.92L333.4 112.67L335.5 113.54L337.6 114.51L339.7 115.57L341.9 116.71L344 117.92L346.1 119.18L348.2 120.48L350.3 121.82L352.4 123.17L354.6 124.54L356.7 125.9L358.8 127.27L360.9 128.62L363 129.96L365.2 131.28L367.3 132.57L369.4 133.83L371.5 135.06L373.6 136.25L375.8 137.4L377.9 138.51L380 139.58L382.1 140.6L384.2 141.57L386.3 142.5L388.5 143.38L390.6 144.2L392.7 144.98L394.8 145.7L396.9 146.38L399.1 147L401.2 147.58L403.3 148.1L405.4 148.58L407.5 149.02L409.7 149.41L411.8 149.77L413.9 150.08L416 150.36L418.1 150.6L420.2 150.82L422.4 151.01L424.5 151.17L426.6 151.31L428.7 151.43L430.8 151.53L433 151.62L435.1 151.69L437.2 151.75L439.3 151.8L441.4 151.84L443.6 151.87L445.7 151.9L447.8 151.92L449.9 151.94L452 151.95L454.1 151.96L456.3 151.97L458.4 151.98L460.5 151.98L462.6 151.98L464.7 151.98L466.9 151.98L469 151.98L471.1 151.98L473.2 151.97L475.3 151.97L477.5 151.96L479.6 151.94L481.7 151.93L483.8 151.91L485.9 151.89L488 151.86L490.2 151.82L492.3 151.78L494.4 151.73L496.5 151.67L498.6 151.6L500.8 151.51L502.9 151.42L505 151.3L507.1 151.17L509.2 151.02L511.4 150.86L513.5 150.67L515.6 150.46L517.7 150.23L519.8 149.98L521.9 149.71L524.1 149.42L526.2 149.11L528.3 148.78L530.4 148.44L532.5 148.09L534.7 147.73L536.8 147.37L538.9 147L541 146.65L543.1 146.3L545.3 145.97L547.4 145.66L549.5 145.38L551.6 145.13L553.7 144.92L555.8 144.74L558 144.61L560.1 144.52L562.2 144.48L564.3 144.49L566.4 144.55L568.6 144.65L570.7 144.79L572.8 144.98L574.9 145.21L577 145.47L579.2 145.76L581.3 146.08L583.4 146.41L585.5 146.76L587.6 147.12L589.7 147.48L591.9 147.85L594 148.21L596.1 148.55L598.2 148.89L600.3 149.21L602.5 149.52L604.6 149.8L606.7 150.07L608.8 150.31L610.9 150.53L613.1 150.73L615.2 150.91L617.3 151.07L619.4 151.22L621.5 151.34L623.6 151.45L625.8 151.54L627.9 151.62L630 151.69L630 152Z"></path><text class="viz-ridge-label" x="154" y="149" text-anchor="end">Children &amp; schools <tspan class="viz-row-n">8</tspan></text></g>
+<g class="viz-pt"><title>Civic engagement: 7 items, 2018 to 2026</title><path class="viz-ridge" fill="url(#hatch-ink)" d="M166 188L166 188L168.1 188L170.2 188L172.4 188L174.5 188L176.6 188L178.7 188L180.8 188L182.9 188L185.1 188L187.2 188L189.3 188L191.4 188L193.5 188L195.7 188L197.8 188L199.9 188L202 188L204.1 188L206.3 188L208.4 188L210.5 188L212.6 188L214.7 188L216.8 188L219 188L221.1 188L223.2 188L225.3 188L227.4 188L229.6 188L231.7 188L233.8 187.99L235.9 187.99L238 187.99L240.2 187.99L242.3 187.98L244.4 187.97L246.5 187.97L248.6 187.95L250.7 187.94L252.9 187.92L255 187.9L257.1 187.87L259.2 187.83L261.3 187.79L263.5 187.73L265.6 187.67L267.7 187.58L269.8 187.48L271.9 187.36L274.1 187.22L276.2 187.04L278.3 186.84L280.4 186.6L282.5 186.33L284.6 186.01L286.8 185.64L288.9 185.22L291 184.75L293.1 184.22L295.2 183.62L297.4 182.96L299.5 182.23L301.6 181.43L303.7 180.56L305.8 179.61L308 178.6L310.1 177.52L312.2 176.37L314.3 175.17L316.4 173.91L318.5 172.6L320.7 171.25L322.8 169.86L324.9 168.46L327 167.04L329.1 165.62L331.3 164.21L333.4 162.82L335.5 161.47L337.6 160.17L339.7 158.92L341.9 157.75L344 156.66L346.1 155.66L348.2 154.76L350.3 153.99L352.4 153.32L354.6 152.79L356.7 152.39L358.8 152.13L360.9 152.01L363 152.02L365.2 152.18L367.3 152.48L369.4 152.91L371.5 153.47L373.6 154.15L375.8 154.95L377.9 155.86L380 156.86L382.1 157.95L384.2 159.11L386.3 160.33L388.5 161.61L390.6 162.92L392.7 164.27L394.8 165.62L396.9 166.99L399.1 168.35L401.2 169.69L403.3 171.01L405.4 172.3L407.5 173.55L409.7 174.75L411.8 175.91L413.9 177L416 178.05L418.1 179.03L420.2 179.95L422.4 180.81L424.5 181.6L426.6 182.33L428.7 183L430.8 183.62L433 184.17L435.1 184.67L437.2 185.12L439.3 185.52L441.4 185.88L443.6 186.19L445.7 186.47L447.8 186.71L449.9 186.92L452 187.09L454.1 187.25L456.3 187.38L458.4 187.49L460.5 187.58L462.6 187.66L464.7 187.72L466.9 187.77L469 187.81L471.1 187.84L473.2 187.87L475.3 187.88L477.5 187.89L479.6 187.89L481.7 187.89L483.8 187.88L485.9 187.86L488 187.84L490.2 187.81L492.3 187.77L494.4 187.72L496.5 187.66L498.6 187.59L500.8 187.51L502.9 187.41L505 187.3L507.1 187.17L509.2 187.02L511.4 186.86L513.5 186.67L515.6 186.46L517.7 186.23L519.8 185.98L521.9 185.71L524.1 185.42L526.2 185.11L528.3 184.78L530.4 184.44L532.5 184.09L534.7 183.73L536.8 183.37L538.9 183L541 182.65L543.1 182.3L545.3 181.97L547.4 181.66L549.5 181.38L551.6 181.13L553.7 180.92L555.8 180.74L558 180.61L560.1 180.52L562.2 180.48L564.3 180.49L566.4 180.55L568.6 180.65L570.7 180.79L572.8 180.98L574.9 181.21L577 181.47L579.2 181.76L581.3 182.08L583.4 182.41L585.5 182.76L587.6 183.12L589.7 183.48L591.9 183.85L594 184.21L596.1 184.55L598.2 184.89L600.3 185.21L602.5 185.52L604.6 185.8L606.7 186.07L608.8 186.31L610.9 186.53L613.1 186.73L615.2 186.91L617.3 187.07L619.4 187.22L621.5 187.34L623.6 187.45L625.8 187.54L627.9 187.62L630 187.69L630 188Z"></path><text class="viz-ridge-label" x="154" y="185" text-anchor="end">Civic engagement <tspan class="viz-row-n">7</tspan></text></g>
+<g class="viz-pt"><title>Courts, debt, and housing: 15 items, 2021 to 2026</title><path class="viz-ridge viz-ridge-mark" fill="url(#hatch-red)" d="M166 224L166 224L168.1 224L170.2 224L172.4 224L174.5 224L176.6 224L178.7 224L180.8 224L182.9 224L185.1 224L187.2 224L189.3 224L191.4 224L193.5 224L195.7 224L197.8 224L199.9 224L202 224L204.1 224L206.3 224L208.4 224L210.5 224L212.6 224L214.7 224L216.8 224L219 224L221.1 224L223.2 224L225.3 224L227.4 224L229.6 224L231.7 224L233.8 224L235.9 224L238 224L240.2 224L242.3 224L244.4 224L246.5 224L248.6 224L250.7 224L252.9 224L255 224L257.1 224L259.2 224L261.3 224L263.5 224L265.6 224L267.7 224L269.8 224L271.9 224L274.1 224L276.2 224L278.3 224L280.4 224L282.5 224L284.6 224L286.8 224L288.9 224L291 224L293.1 224L295.2 224L297.4 224L299.5 224L301.6 224L303.7 224L305.8 224L308 224L310.1 224L312.2 224L314.3 224L316.4 224L318.5 223.99L320.7 223.99L322.8 223.99L324.9 223.98L327 223.98L329.1 223.97L331.3 223.96L333.4 223.95L335.5 223.93L337.6 223.91L339.7 223.89L341.9 223.86L344 223.82L346.1 223.77L348.2 223.71L350.3 223.64L352.4 223.55L354.6 223.44L356.7 223.31L358.8 223.16L360.9 222.98L363 222.78L365.2 222.53L367.3 222.25L369.4 221.92L371.5 221.55L373.6 221.13L375.8 220.66L377.9 220.13L380 219.55L382.1 218.91L384.2 218.2L386.3 217.44L388.5 216.61L390.6 215.73L392.7 214.78L394.8 213.79L396.9 212.75L399.1 211.66L401.2 210.54L403.3 209.39L405.4 208.21L407.5 207.02L409.7 205.82L411.8 204.62L413.9 203.44L416 202.27L418.1 201.13L420.2 200.02L422.4 198.95L424.5 197.93L426.6 196.96L428.7 196.04L430.8 195.18L433 194.38L435.1 193.63L437.2 192.95L439.3 192.32L441.4 191.75L443.6 191.24L445.7 190.77L447.8 190.35L449.9 189.97L452 189.62L454.1 189.31L456.3 189.02L458.4 188.75L460.5 188.5L462.6 188.25L464.7 188L466.9 187.74L469 187.47L471.1 187.18L473.2 186.87L475.3 186.53L477.5 186.14L479.6 185.71L481.7 185.24L483.8 184.71L485.9 184.12L488 183.48L490.2 182.77L492.3 182.01L494.4 181.18L496.5 180.3L498.6 179.36L500.8 178.38L502.9 177.37L505 176.32L507.1 175.26L509.2 174.2L511.4 173.15L513.5 172.13L515.6 171.16L517.7 170.25L519.8 169.43L521.9 168.7L524.1 168.1L526.2 167.62L528.3 167.29L530.4 167.13L532.5 167.13L534.7 167.32L536.8 167.69L538.9 168.24L541 168.99L543.1 169.91L545.3 171.02L547.4 172.3L549.5 173.73L551.6 175.32L553.7 177.03L555.8 178.86L558 180.8L560.1 182.81L562.2 184.89L564.3 187.01L566.4 189.16L568.6 191.32L570.7 193.47L572.8 195.6L574.9 197.69L577 199.73L579.2 201.71L581.3 203.62L583.4 205.44L585.5 207.18L587.6 208.82L589.7 210.37L591.9 211.81L594 213.15L596.1 214.39L598.2 215.53L600.3 216.57L602.5 217.52L604.6 218.37L606.7 219.14L608.8 219.82L610.9 220.43L613.1 220.96L615.2 221.43L617.3 221.84L619.4 222.19L621.5 222.49L623.6 222.76L625.8 222.97L627.9 223.16L630 223.32L630 224Z"></path><text class="viz-ridge-label" x="154" y="221" text-anchor="end">Courts, debt &amp; housing <tspan class="viz-row-n">15</tspan></text></g>
+<g class="viz-pt"><title>Other: 2 items, 2019 to 2021</title><path class="viz-ridge-other" fill="none" d="M166 260L166 260L168.1 260L170.2 260L172.4 260L174.5 260L176.6 260L178.7 260L180.8 260L182.9 260L185.1 260L187.2 260L189.3 260L191.4 260L193.5 260L195.7 260L197.8 260L199.9 260L202 260L204.1 260L206.3 260L208.4 260L210.5 260L212.6 260L214.7 260L216.8 260L219 260L221.1 260L223.2 260L225.3 260L227.4 260L229.6 260L231.7 260L233.8 260L235.9 260L238 260L240.2 260L242.3 260L244.4 260L246.5 260L248.6 260L250.7 260L252.9 260L255 260L257.1 260L259.2 260L261.3 260L263.5 260L265.6 260L267.7 259.99L269.8 259.99L271.9 259.99L274.1 259.98L276.2 259.98L278.3 259.97L280.4 259.96L282.5 259.95L284.6 259.94L286.8 259.92L288.9 259.9L291 259.88L293.1 259.85L295.2 259.81L297.4 259.76L299.5 259.71L301.6 259.64L303.7 259.57L305.8 259.48L308 259.38L310.1 259.26L312.2 259.12L314.3 258.97L316.4 258.79L318.5 258.6L320.7 258.38L322.8 258.14L324.9 257.88L327 257.6L329.1 257.3L331.3 256.98L333.4 256.64L335.5 256.29L337.6 255.92L339.7 255.55L341.9 255.17L344 254.79L346.1 254.41L348.2 254.04L350.3 253.69L352.4 253.34L354.6 253.02L356.7 252.72L358.8 252.45L360.9 252.21L363 251.99L365.2 251.81L367.3 251.66L369.4 251.53L371.5 251.44L373.6 251.37L375.8 251.33L377.9 251.3L380 251.29L382.1 251.29L384.2 251.3L386.3 251.31L388.5 251.33L390.6 251.34L392.7 251.35L394.8 251.35L396.9 251.35L399.1 251.35L401.2 251.33L403.3 251.32L405.4 251.3L407.5 251.29L409.7 251.29L411.8 251.29L413.9 251.32L416 251.35L418.1 251.41L420.2 251.5L422.4 251.61L424.5 251.75L426.6 251.92L428.7 252.13L430.8 252.36L433 252.62L435.1 252.91L437.2 253.23L439.3 253.56L441.4 253.91L443.6 254.28L445.7 254.65L447.8 255.03L449.9 255.41L452 255.79L454.1 256.16L456.3 256.51L458.4 256.86L460.5 257.18L462.6 257.49L464.7 257.78L466.9 258.05L469 258.3L471.1 258.52L473.2 258.72L475.3 258.91L477.5 259.07L479.6 259.21L481.7 259.34L483.8 259.44L485.9 259.54L488 259.62L490.2 259.69L492.3 259.75L494.4 259.79L496.5 259.83L498.6 259.87L500.8 259.89L502.9 259.92L505 259.93L507.1 259.95L509.2 259.96L511.4 259.97L513.5 259.98L515.6 259.98L517.7 259.99L519.8 259.99L521.9 259.99L524.1 259.99L526.2 260L528.3 260L530.4 260L532.5 260L534.7 260L536.8 260L538.9 260L541 260L543.1 260L545.3 260L547.4 260L549.5 260L551.6 260L553.7 260L555.8 260L558 260L560.1 260L562.2 260L564.3 260L566.4 260L568.6 260L570.7 260L572.8 260L574.9 260L577 260L579.2 260L581.3 260L583.4 260L585.5 260L587.6 260L589.7 260L591.9 260L594 260L596.1 260L598.2 260L600.3 260L602.5 260L604.6 260L606.7 260L608.8 260L610.9 260L613.1 260L615.2 260L617.3 260L619.4 260L621.5 260L623.6 260L625.8 260L627.9 260L630 260L630 260Z"></path><text class="viz-ridge-label" x="154" y="257" text-anchor="end">Other <tspan class="viz-row-n">2</tspan></text></g>
+<line class="viz-axis" x1="166" y1="260" x2="630" y2="260"></line>
+<text class="viz-tick" x="227.5" y="277" text-anchor="middle">2014</text><text class="viz-tick" x="311.3" y="277" text-anchor="middle">2017</text><text class="viz-tick" x="395.2" y="277" text-anchor="middle">2020</text><text class="viz-tick" x="479.1" y="277" text-anchor="middle">2023</text><text class="viz-tick" x="562.9" y="277" text-anchor="middle">2026</text>
+</svg>
+<figcaption>Each ridge is one subject area; height is items per year on a shared scale. 51 items, 2013 to 2026.</figcaption>
+</figure>
+<div class="fig-head"><h3>Where the work is</h3><span class="fig-no">FIG. 2 — STATES COVERED</span></div>
+<figure class="viz figure">
+<svg viewbox="0 0 660 400" role="img" aria-labelledby="sm-t sm-d" class="viz-map">
+<defs>
+<pattern id="hatch-ink" width="5" height="5" patterntransform="rotate(45)" patternunits="userSpaceOnUse"><rect class="hatch-bg" width="5" height="5"></rect><line class="hatch-ink-line" x1="0" y1="0" x2="0" y2="5"></line></pattern>
+<pattern id="hatch-red" width="4" height="4" patterntransform="rotate(45)" patternunits="userSpaceOnUse"><rect class="hatch-bg" width="4" height="4"></rect><line class="hatch-red-line" x1="0" y1="0" x2="0" y2="4"></line></pattern>
+</defs>
+<title id="sm-t">States my research covers</title>
+<desc id="sm-d">A United States map with twelve states filled: Texas, Minnesota, Wisconsin, Oregon, Michigan, California, Missouri, Massachusetts, Alabama, Utah, North Dakota and Virginia. Each is tied to a named piece of published work.</desc>
+<path class="viz-state-off" d="M110.1 233.6L111.8 217.9L114.4 217L119 219.6L122.9 205.6L181.7 215.3L169.8 299.7L143.7 295.7L100.6 270.3L102.2 267.2L105.8 265.7L103.8 258.7L107.4 254.4L108.1 250.1L114 246L110.1 233.6ZM361 285.6L360.8 277.5L355.3 276.2L355.6 250L353.1 233.2L406.4 231.3L407.6 234.5L404.3 239L413.3 239.6L410 242.7L410.5 245.9L407.3 247.7L409 251.8L403.6 257.9L403.4 263L397.6 269.5L397.9 274.3L396.2 273.9L395.9 276.2L398.6 280.9L396.9 284.9L361 285.6ZM264.6 223.6L181.7 215.3L189.9 155.3L268.3 163.1L264.6 223.6ZM584.2 120L602.6 115.6L604.8 125.9L592.9 129.6L586 135.5L587.2 132.2L584.2 120ZM566.7 160L570.8 158L570.1 163.8L574.8 171L578 172.5L578.7 174.2L576.9 175.3L579.3 177L572 178.5L566.7 160ZM554 174.8L556.5 175.1L555.4 176.7L554 174.8ZM477.6 308.4L480 312.4L514.3 310.2L515.4 313.1L516.9 312.8L516.4 306.3L523.8 306.9L528.6 320.7L551.2 360.8L552.8 376.1L549.9 385.2L541.1 387.9L539.9 385.4L542.4 386.4L543.2 384.8L539.8 384.2L535.4 378.4L530.6 377.6L527.7 370.2L524.3 367.6L524.4 362.9L521.5 362.9L523.1 365.4L521.4 365.4L514.8 356.8L517.4 349.3L516.2 351L513.4 348.3L514.5 353.1L511.8 351.2L512.6 335.7L496.5 322.1L488.7 320.4L487.9 323.6L475.1 328.5L473.9 325.9L475.3 328.1L475.5 326L470.5 322.5L473 322.7L470.2 320.1L467.8 320.4L469.5 322.1L459.3 318.9L464.1 318.4L462.7 317.3L450.7 320.5L453.2 318.5L450.2 317.4L450.4 319.4L446.6 321.9L447.4 316.8L444.2 313.6L444.4 311.6L477.6 308.4ZM527.7 285.6L524.6 290.8L524.7 295.9L522.4 297.4L522.9 300.2L521.5 299.7L522.8 301.8L523.5 300.8L522.9 306.4L516.2 306.4L516.9 312.8L514.7 312.6L514.3 310.2L480 312.4L476.1 305.9L474.5 295.6L476.9 289.5L472.2 280.8L463.4 249.6L493.8 245.6L491.5 250.8L497.8 253.1L502.6 260.2L518 272.6L524.4 284.8L527.7 285.6ZM104.7 124.3L113.1 93.1L110.5 88.7L122.4 72.6L118.9 65.9L119 60.7L127.8 22.1L137.4 24.2L134.3 38.7L136.6 45.1L135.5 47.7L139.1 51.1L142.9 60.4L147.5 62.2L142.2 77.5L144 79.4L148.3 76.5L149.9 78.2L151.6 89.9L154.6 92L156.6 98.5L158.3 96.7L161.5 98.1L163.5 96.5L171.5 98.3L173 95.2L175.8 99.9L169.9 137L104.7 124.3ZM395.7 140.9L427 138.7L431 149.9L434.1 185.9L432.8 189.2L435.4 195.2L430.3 203.3L430.2 214.4L425.7 216.2L426.1 221L419.9 219.2L417.8 223L416.6 221.7L416 222.8L413.5 218.9L413.1 213.1L402.5 205.5L404.9 196.1L400.9 194.3L398.8 195.7L397.6 190.6L388.7 181.4L388.6 170.7L391.9 168.8L393.5 164.3L392.2 157.7L398.6 155.4L401.4 150.7L401.1 146.2L395.7 140.9ZM430.5 210L430.3 203.3L435.4 195.2L432.8 189.2L434.1 185.9L431 149.9L434.6 151.3L438.8 148.8L461.2 146.2L466.4 191.2L459.4 193L459.7 195.7L454.4 204.4L451.1 204.2L449.7 202L446.8 207.6L444.5 205.6L441.5 209L435.2 207L434.9 209L431.8 207.9L430.5 210ZM388.5 126.3L390.5 129.7L389.3 132.5L390.9 137.4L395 139.4L401.7 148.1L399.7 154.4L392.2 157.7L393.5 164.3L391.9 168.8L388.6 170.7L389 173.2L385.3 170L339.3 171.3L338 160.6L329.9 139.6L331.8 133.5L330.2 127.6L388.5 126.3ZM352.8 225.4L264.6 223.6L267.3 178.2L348.3 181.5L349.5 184.1L346.8 187.4L353 193.1L352.8 225.4ZM493 193.2L495.1 200.6L502 205.5L490.2 219.2L483.8 222.7L431.4 226.9L431.7 229.5L415.6 230.7L416.4 228.6L418.3 229.3L418.6 220L426.1 221L425.7 216.2L430.1 214.5L429 211.9L431.8 207.9L434.9 209L435.5 206.9L441.5 209L444.5 205.6L446.8 207.6L449.7 202L451.1 204.2L454.4 204.4L459.7 195.7L459.4 193L466.2 191.4L466.1 185.9L469.9 185.7L473 189.7L479.8 191.6L486 190.9L488.6 188.8L493 193.2ZM361 285.6L398.4 285.7L397.8 290.7L399.7 292.1L398.2 292.3L401 294.7L397.7 297.4L400.5 297.2L394 305.9L392.8 315.1L416.9 313.8L416.2 318.9L420.4 325.9L411.6 323.2L409.1 327.7L413.9 328.3L418.8 326.2L416.6 329.1L419.3 330.6L421.1 327.3L424.9 325.9L425.5 329.6L420 334.6L421.5 337.5L428 339.8L427.8 341.7L423.6 343.8L424.2 341.7L422 339.6L414.7 336.4L415.2 340.4L413.2 342.4L410.8 339.7L409.8 341.2L407.7 339.5L404.8 343L400.8 341.4L398.3 337.5L394.8 336.9L393.8 333.5L390.5 334.2L390.6 332.6L386.2 334L388.3 335.9L385.1 337.2L373.8 333.9L363.9 334.6L366.3 330.1L365.8 323L368.3 315.4L361.3 300.9L361 285.6ZM609.8 97.3L606.2 93.5L597.6 65.8L600.2 65.9L599.8 63.6L601.7 63.2L600.3 61.5L603.4 55.2L602 50.8L603 42.6L607.3 29.7L609.3 29.4L611.6 32.5L618 28.1L623.7 31.8L629.2 50.6L633.3 51L634.5 55.8L639.2 57.2L639 60.7L641.2 61.4L636.4 66.7L633.7 67.1L632.3 71.2L630.3 69L628.6 71.2L627.8 70.1L627.7 73.8L624.5 73.6L625.7 72.5L623.7 70.2L622.1 80.5L620 79.4L619.5 82.6L616.6 82.9L616.8 85.6L615.5 83.6L612.7 85.9L609.8 97.3ZM546.3 170.4L544 166.5L539.9 166.2L536.9 169.4L533.6 168.1L526.5 175.9L525.1 168.3L566.7 160L572 178.5L579.3 177L578.8 183.8L578.1 180.6L577.2 184.1L571.8 186.9L570 181L568.6 182.8L565.1 180.3L566.3 178.7L565 177.6L567.5 177.7L566.3 175.6L563.7 175.8L565.4 175L565.1 170L563.3 169.6L566.1 165.9L565.3 162.6L561.1 169.2L559 169L561.6 170.9L561 176.2L564.3 182.3L560.7 181L564.6 182.8L565.9 186.2L564 184.3L558.5 184.2L556.8 181.9L554.4 184.3L553.3 181.8L556.5 175.1L550.4 173.7L549.3 171.1L546.3 170.4ZM432 252.3L432.2 299.3L435.1 321.4L422.9 322.8L420.4 325.9L416.2 318.9L416.9 313.8L392.8 315.1L394 305.9L400.5 297.2L397.8 296.7L401 294.7L398.2 292.3L399.6 292.4L399.3 290.3L397.8 290.7L398.4 285.7L396.7 285.2L398.6 280.9L396.9 279.7L398 278.1L396.1 278L396 274.1L397.9 274.3L397.6 269.5L403.4 263L403.6 257.9L406.5 254.1L432 252.3ZM256.1 41.8L251 101.2L177.1 92.4L175.8 99.9L173 95.2L171.5 98.3L163.5 96.5L162.1 98L155.5 97.5L154.6 92L151.6 89.9L149.9 78.2L148.3 76.5L144 79.4L142.2 77.5L147.5 62.2L142.9 60.4L139.1 51.1L135.5 47.7L136.6 45.1L134.3 38.7L137.4 24.2L195.5 34.7L256.1 41.8ZM248.4 131.3L309.1 134.8L314.9 138.6L321.9 137.1L327.6 139.6L332.2 143.2L338 160.6L338.1 169.6L344.2 180.1L267.4 178.1L268.3 163.1L245.8 161.4L248.4 131.3ZM119 219.6L114.4 217L111.8 217.9L110.1 233.6L61.3 160.8L72.5 116.5L137.1 131.2L119 219.6ZM592.8 107.3L590.7 95.1L591.8 83.7L595.3 78.9L594.2 67.8L597.6 65.8L606.2 93.5L610.2 98.4L605.3 104.6L592.8 107.3ZM573.3 133.2L583.6 136.6L580.9 144.8L584.2 144.6L585.5 147.4L585.9 154.7L584.8 151.2L584.8 157L579.3 169.7L578.9 166.4L573.8 165.2L569.9 161.2L570.7 157.9L577.3 151.2L570.5 145.4L570.1 139.8L573.3 133.2ZM253.2 222.8L246.7 298.2L201.8 294L202.4 297.3L181.3 294.7L180.3 301.1L169.8 299.7L181.7 215.3L253.2 222.8ZM515.5 130.9L523.9 121.8L521 114.3L530.6 111.2L537 112.2L545.6 108.9L549.9 104.4L548.3 100.5L549.3 97.5L547.9 98.5L546.7 96.5L555.7 83.1L559.9 79.8L575.2 76.2L577.6 90.3L579.6 97.4L581.5 97.4L584.3 109.8L584 119.4L587.2 132.2L585.1 134.4L585.2 139L583.6 136.6L569.8 131.9L564.3 125.3L516.3 134.8L515.5 130.9ZM605.4 130L593 140.2L597.9 135.9L583.9 142.9L584.2 139.9L587.6 136.9L596.8 133.7L601 130L597.7 134.1L605.4 130ZM551.9 253.5L535.8 242L522.4 244L518.7 239.3L501.8 241.2L493.8 245.6L481.3 247.5L479.1 247.6L479 244.1L482.1 242.5L483.9 238.7L494.1 233L497 228.8L498.5 230.1L504.5 226.6L507.6 223L507.9 219.1L573.9 207.6L578.3 214L576 211.4L576.5 213.1L573.4 211.9L575.1 213.8L572.5 213.5L573.2 214.8L571.2 214.3L570.9 216.5L568.3 216.8L566.6 212.5L567.9 218.6L575.9 216.3L575.5 220.5L577 221L578.2 215.9L580.6 221L576.6 226L572 226.1L572 223.3L569.8 224L570.9 226.3L565.8 225.6L572.8 227.3L570.9 232.3L566.1 231.8L570.6 233.9L573.8 230.7L576 232.7L573.7 236L572 235.2L567.6 238L566.3 236.8L565.4 240.2L563.1 237.7L564.6 241L560.5 245.3L559.6 250.5L558.8 248.8L558 251.9L551.9 253.5ZM511.3 156.4L509.7 157.3L511 161.6L509.6 172.2L501.2 179L501.1 184.1L497.4 183.8L495.7 192.2L493 193.2L488.2 188.8L484.3 191.4L478.7 191.4L473 189.7L469.9 185.7L465.7 186.3L461.3 147.2L476.2 144.7L475.8 146.1L484.7 146.7L482.5 148.8L487.8 148.6L496.4 145.3L499.5 141.2L507.8 136.7L511.3 156.4ZM352.8 225.4L355.6 250L355.3 276.2L346 271.5L335.7 273.5L332.4 275.9L328.6 272.7L325.8 273.6L325.2 271.8L322.4 275.5L321.2 272.5L319.3 274.2L315.6 271.4L313.2 273.5L310.2 268.7L305.8 269.9L304.4 268.2L297.2 267.3L295.2 263.6L290.8 264.5L287.4 261.8L288.6 232.6L252.7 230.7L253.2 222.8L352.8 225.4ZM515.5 130.9L516.3 134.8L564.3 125.3L569.8 131.9L573.3 133.2L570.1 139.8L570.5 145.4L577.3 151.2L573.4 156.4L567.1 159.9L513.5 170.2L507.8 136.7L515.5 130.9ZM604.8 125.9L602.8 116L607 114.6L612 121.4L610.1 123.1L608.5 120L608.6 124.4L604.8 125.9ZM493.8 245.6L501.8 241.2L518.7 239.3L522.4 244L535.8 242L551.9 253.5L545.7 262.8L544.4 262.5L545.8 265.4L539.2 272.6L537.9 272L537.7 274.7L531 278L530.3 281.2L527.6 279.4L530 282.5L527.7 285.6L524.4 284.8L518 272.6L502.6 260.2L497.8 253.1L491.5 250.8L493.8 245.6ZM331.8 143L323 137.3L314.9 138.6L309.1 134.8L248.4 131.3L252.2 87.3L330.7 90.8L327.7 95.5L332 100.6L331.9 127.7L330.1 128.2L331.8 133.5L329.9 139.6L331.8 143ZM414.2 229.6L415.1 231.4L431.7 229.5L431.4 226.9L477.4 223.5L507.9 219.1L507.6 223L504.5 226.6L498.5 230.1L497 228.8L493.5 233.5L483.9 238.7L482.1 242.5L479 243.8L479 247.7L406.5 254.1L409 251.8L407.3 247.7L410.5 245.9L410 242.7L413.3 239.6L414.2 229.6ZM575.2 76.2L594.3 71.4L595.3 78.9L591.9 82.9L590.7 94.8L592.8 107.3L584.1 109.3L581.5 97.4L579.6 97.4L577.6 90.3L575.2 76.2ZM69.6 19.7L69.9 19.4L71.6 24.6L69.6 19.7ZM70.1 19.1L71.5 17.3L71.2 16.5L74 14.5L72.6 8L127.8 22.1L118.9 65.9L98.2 61.1L74.3 61L71 58.5L62.2 58.7L58.4 56.4L58.5 49.2L48.3 42.4L49.6 38.1L50 41.9L52.3 37.5L50.1 36.7L50.4 33.8L53.8 33.7L50.5 32.5L51 10.9L57.5 16.2L65.3 18.9L67.3 22L68.1 20.2L69.6 21.2L69.1 24.3L66.6 24.5L61.8 30.3L65.2 30.1L62.6 29.7L69.5 25.2L69.6 23.4L70.2 26.5L67.5 27.7L68.9 30L67.3 33.3L67.2 31.3L64.7 33.8L65.3 30.8L62.3 32.2L63.2 35.7L70.1 32.5L71.2 26L74 23.2L72.1 18.7L70.1 19.1ZM70.5 13.2L68.7 12.9L69.8 11.4L70.5 13.2ZM525.1 168.3L526.5 175.9L533.6 168.1L536.9 169.4L539.9 166.2L544 166.5L546.3 170.4L545.4 173.4L538.8 169.8L538.8 174.3L534.8 181.2L532.6 181L531 187L526.1 185.7L520 204.4L515.4 205.3L511.4 208.7L509.5 207.5L507.4 209.9L503.9 209.1L502 205.5L495.1 200.6L492.9 193.2L496.9 189.8L497.4 183.8L501.1 184.1L501.2 179L509.6 172.2L511 161.6L509.7 157.1L511.3 156.4L513.5 170.2L525.1 168.3ZM167.5 152L177.1 92.4L251 101.2L245.8 161.4L167.5 152Z"></path>
+<g class="viz-pt"><title>Texas — Harris County evictions, JP precinct caseloads, Galveston housing, Census 2020, Children at Risk statewide work</title><path class="viz-state-on" fill="url(#hatch-red)" d="M360.8 277.5L361.3 300.9L368.1 313L365.8 323L366.3 330.1L363.6 333.9L364.7 335.1L352.8 340.4L355.9 337.9L352.4 337.9L353.6 333.8L350.8 336.1L349.2 335.3L350.8 341.1L347.4 343L347.1 345.8L331.7 355.3L339.8 349.7L333.5 352.6L333.8 350L331.8 351.7L330.8 350.5L330.1 352.7L327.7 350.5L328.8 354L330.8 354.5L327.5 356.3L325.6 353.9L325.6 358.1L324 359.1L324 357.3L319.7 359.9L321.4 363L315.6 362.9L317.8 363.9L318 366.6L319.2 365.9L317.4 370.6L315.7 371.8L316 369.8L314.6 371.7L312.4 369.3L312.9 372.1L317 372.4L315.4 378.3L319.5 391.1L320.9 390.2L318.8 392L307.1 390L294.5 384.5L289.8 374.6L289.1 366.7L279.8 356.3L273.4 341.2L266.2 333.4L254.1 330.7L249.4 332.4L246.2 340L242.6 343.3L229.3 335.9L225.1 331.7L221.8 317.9L201.4 295.9L201.8 294L246.7 298.2L252.1 230.7L288.6 232.6L287.4 261.8L291.1 264.7L295.2 263.6L297.2 267.3L304.4 268.2L305.8 269.9L310.2 268.7L312.3 273L316.1 271.4L319.3 274.2L321.2 272.5L322.4 275.5L325.2 271.8L325.8 273.6L328.6 272.7L332.4 275.9L335.7 273.5L346 271.5L360.8 277.5Z"></path></g>
+<g class="viz-pt"><title>Minnesota — Pocket filing in Minnesota; racial disparities in debt lawsuits</title><path class="viz-state-on" fill="url(#hatch-red)" d="M331.9 127.7L331.9 100L327.7 95.5L330.9 88.6L328.5 80.4L327.9 66.2L325 57.5L324.3 45.1L345 45.1L345 39.4L347.2 39.5L349.9 48.6L358.3 50.3L359.1 52.2L367.2 50.1L370.7 51.1L370 52.7L371.9 52.7L373.4 55.9L376.3 53.8L381.7 57.9L388.9 54.8L390.1 57L402.9 57.6L389.9 64.8L374.9 79.4L375.3 88.1L370.9 90.9L369 95.1L371.8 97.9L370.7 108.1L386.3 119.2L388.5 126.3L331.9 127.7Z"></path></g>
+<g class="viz-pt"><title>Wisconsin — Consumer Debt Collection Lawsuits in Wisconsin, 2018-2024</title><path class="viz-state-on" fill="url(#hatch-red)" d="M427 138.7L395.7 140.9L390.9 137.4L387.9 121.1L380.2 113.6L370.7 108.1L371.8 97.9L369 95.1L370.9 90.9L375.3 88.1L374.9 79.4L376.4 78L379.9 78.9L389.9 74.5L389.9 79.9L391.6 78.5L396.7 80.6L398.2 83.2L419.1 87.6L419.3 89.5L422.8 90.9L422.2 95.6L424.3 95.4L424 98.4L425.8 99.6L422 108.5L425.7 103.5L428.4 103.2L429.5 98.1L432.2 96.2L426.2 115.8L425 128L427 138.7Z"></path></g>
+<g class="viz-pt"><title>Oregon — Oregon debt collection findings chartbook; racial disparities</title><path class="viz-state-on" fill="url(#hatch-red)" d="M118.9 65.9L122.4 72.6L110.5 88.7L113.1 93.1L104.7 124.3L47.9 109.9L27.8 104L27 102.3L27.9 90.7L35.7 79.9L46.5 55L48.5 44L56.8 47.2L59 51.5L58.4 56.4L62.2 58.7L67.8 57.8L74.3 61L81.9 61.7L98.2 61.1L118.9 65.9Z"></path></g>
+<g class="viz-pt"><title>Michigan — Racial disparities in consumer debt lawsuits</title><path class="viz-state-on" fill="url(#hatch-red)" d="M394.6 79.9L405.5 74.6L414.6 66.2L420.2 64.2L421.4 65.2L414.5 72L414.7 75.6L417.7 72.2L416.7 74.3L422.8 73.7L426.3 78.4L433.8 79L438.7 74.6L450.7 71.8L450.5 76L458.3 75.8L459.1 79.6L463 82.3L455.2 82.3L454.8 85.1L446.3 82.5L438.6 85.6L435.3 90.8L435.6 86.5L431.5 90L431.3 86.7L425.8 99.6L424 98.4L424.3 95.4L422.2 95.6L422.8 90.9L418.5 87.2L398.2 83.2L394.6 79.9ZM476.2 144.7L438.8 148.8L444.7 134.7L439.3 120L440.8 104.4L447.5 95.7L447 101.9L448.2 98.8L448.7 102L449.2 94.3L453.4 92.2L451.5 90.5L452.4 86.9L455.1 86.1L468.5 90.9L471.6 95.1L469.7 95.8L472.2 100.4L472.2 105.5L467.1 112.2L468 117L470.2 117.4L476.6 109.4L481.1 112.6L484.4 129.5L483.6 131.3L482.8 129.6L481.3 130.4L476.2 144.7Z"></path></g>
+<g class="viz-pt"><title>California — Written answer requirements and court participation</title><path class="viz-state-on" fill="url(#hatch-red)" d="M72.5 116.5L61.3 160.8L110.1 233.6L114 246L108.5 249.5L107.4 254.4L104.2 257.3L103.6 262.1L106.1 263.9L104 267.5L72.2 263.9L70.9 251.6L64.5 242.9L61.1 242.3L60.7 238.1L53.5 235L49.5 229L39.3 225.9L37.3 223.5L39.4 214.9L29.5 194.2L29.7 190.1L32.9 186.3L27.3 179.4L28.4 170.8L33.2 177L30.3 168.5L33.5 167.8L29.7 165.6L28.9 170.1L25 165.3L23.8 166L25.7 162.9L19.5 149.6L22.3 137.1L18.8 125.8L24.6 118.3L27.8 104L72.5 116.5Z"></path></g>
+<g class="viz-pt"><title>Missouri — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M339.4 171.2L386.3 170.8L388.7 173.5L388.7 181.4L397.6 190.6L398.4 195.2L404.9 196.1L402.5 205.5L413.1 213.1L415.2 221.9L418.9 223.4L418.3 229.3L416.4 228.6L415.1 231.4L413.8 229.7L412.3 238.5L404.3 239L407.6 234.5L406.4 231.3L353.1 233.2L353 193.1L346.8 187.4L349.3 182.4L344.1 180.1L339.4 171.2Z"></path></g>
+<g class="viz-pt"><title>Massachusetts — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M619.6 121L615.8 123.2L617.5 120.4L619.6 121ZM584.2 120L584.1 109.3L605.3 104.6L609.1 100.8L612.2 104.4L609.7 107.5L610 110.1L613.4 110.1L618.7 116L622.3 114L619.1 110.7L620.9 110.4L624.1 116L616.8 119.5L615.6 116.7L612.6 121.4L607 114.6L584.2 120ZM624.3 120L625.6 121.6L622.7 122L624.3 120Z"></path></g>
+<g class="viz-pt"><title>Alabama — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M447.1 320.7L440.3 323.5L442.8 322L439.4 315.2L438.4 322.1L435.1 321.4L432.2 299.3L432.1 252L463.4 249.6L472.2 280.8L476.9 289.5L474.5 295.6L477.6 308.4L444.4 311.6L444.3 313.9L447.4 316.8L447.1 320.7Z"></path></g>
+<g class="viz-pt"><title>Utah — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M137.1 131.2L169.9 137L167.5 152L189.9 155.3L181.7 215.3L122.9 205.6L137.1 131.2Z"></path></g>
+<g class="viz-pt"><title>North Dakota — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M252.2 87.3L256.1 41.8L324.3 45.1L330.7 90.8L252.2 87.3Z"></path></g>
+<g class="viz-pt"><title>Virginia — Consumer debt filings tracked, 2019-2025</title><path class="viz-state-on" fill="url(#hatch-red)" d="M574.2 185.8L577.2 184.1L573.2 199L572 194.4L574.2 185.8ZM546.3 170.4L555.1 175.8L553.3 182.2L554.4 184.3L556.6 182.9L558.4 185.5L567.5 188.2L566.9 192.6L559 188L564.5 193.1L567.8 193.4L566 194.3L569 195.8L566.7 196L567.7 198.2L562.1 195.6L569.8 201.4L568.2 202.4L562.1 198.5L561 200L564.6 200.3L567.9 204L573.3 202.2L576.2 207.2L574.7 206L574.1 207.8L537.8 215L484.1 222.4L490.2 219.2L502 205.5L503.1 208.5L507 209.9L509.3 207.6L511.4 208.7L515.4 205.3L520 204.4L526.1 185.7L531 187L532.6 181L534.8 181.2L538.8 174.3L538.8 169.8L545.4 173.4L546.3 170.4Z"></path></g>
+</svg>
+<figcaption>Alabama, California, Massachusetts, Michigan, Minnesota, Missouri, North Dakota, Oregon, Texas, Utah, Virginia, Wisconsin. Hover a state for the work it covers. The academic work reaches further: Ireland and Austria, Israel, sub-Saharan Africa, and religious demography worldwide.</figcaption>
+</figure>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-writing" class="quarto-listing quarto-listing-container-custom">
+<div class="item-list">
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">July 2026</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.januaryadvisors.com/consumer-debt-filings-kept-climbing-in-2025/">Consumer Debt Filings Kept Climbing in 2025</a></span> <span class="item-authors">with Divia Kallattil</span>
+<p class="item-blurb">
+Debt collection filings rose again in 2025. Missouri reached 188% and Texas 177% of their 2019 volumes, and the debt buyer LVNV Funding alone accounted for about 23% of cases in the sample.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.wsj.com/personal-finance/credit/debt-collectors-chase-more-consumers-in-court-f8d0ed3f">Wall Street Journal</a>, <a href="https://news.bloomberglaw.com/banking-law/debt-collection-case-surge-draws-push-to-aid-pro-se-defendants">Bloomberg Law</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">April 2026</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/debt-collection-pocket-filing-in-minnesota/">When Real Debt Collection Lawsuits Look Like Scams: The Problem with Pocket Filing in Minnesota</a></span></p>
+<p class="item-blurb">
+Minnesota lets a debt collector serve a lawsuit up to a year before filing it with the court, so defendants cannot confirm the case is real. A review of 1,000 cases found most plaintiffs file within two months anyway.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">March 2026</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.januaryadvisors.com/texas-online-voter-registration/">43 states have online voter registration. Why not Texas?</a></span> <span class="item-authors">with Shannon Carter</span>
+<p class="item-blurb">
+Florida registration data from 2017 to 2024 shows no independent partisan effect from online registration. County population size drove the trends instead.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">December 2025</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/debt-collection-answer-requirement/">Most people sued for debt never get their day in court. We can fix that.</a></span></p>
+<p class="item-blurb">
+People sued for debt are 2.1 to 3.7 times more likely to take part in their case where courts require no formal written answer. Dropping California's answer requirement could bring 5,000 to 12,000 more defendants into the process each year.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://journalistsresource.org/economics/debt-collection-lawsuits/">Journalist's Resource</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Debt Collection Lab</span><span class="item-meta">December 2025</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://debtcollectionlab.org/research/wisconsin-debt-collection-lawsuits/">Consumer Debt Collection Lawsuits in Wisconsin, 2018-2024</a></span> <span class="item-authors">with Divia Kallattil</span>
+<p class="item-blurb">
+Wisconsin courts saw nearly 100,000 debt collection filings in 2024, most brought by national debt buyers and banks. Black residents were sued at 1.86 times the rate of white residents.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">December 2025</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/wage-garnishment-protections-debt-collection-lawsuits/">Could stronger wage garnishment protections mean fewer debt collection lawsuits?</a></span></p>
+<p class="item-blurb">
+States with stronger wage garnishment protections see fewer debt collection filings per capita. Raising the nine states graded F to a C could mean roughly 128,000 fewer cases a year.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">August 2025</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.januaryadvisors.com/consumer-debt-cases-are-surging-again-2024/">Consumer Debt Cases Are Surging Again—and One Company Is Leading the Charge</a></span> <span class="item-authors">with Divia Kallattil</span>
+<p class="item-blurb">
+Debt collection filings matched or passed pre-pandemic levels in 2024 and 2025. LVNV Funding's volume rose 350% since 2019 and now makes up 18% of all filings in the sample.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.nytimes.com/2025/09/12/your-money/debt-collection-lawsuits.html">New York Times</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">March 2025</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.januaryadvisors.com/how-campaign-donations-affect-indigent-defense-in-harris-county/">How campaign donations affect indigent defense in Harris County</a></span> <span class="item-authors">with Brian Barr, Jeff Reichman</span>
+<p class="item-blurb">
+Harris County judges assigned about twice as many indigent defense cases to attorneys who donated to their campaigns. Donor attorneys got no better outcomes than non-donors, and public defenders outperformed appointed counsel.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">August 2024</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/debt-racial-disparities/">Measuring racial disparities in consumer debt lawsuits</a></span></p>
+<p class="item-blurb">
+In Michigan, Minnesota, and Oregon, Black and Latino residents faced debt collection lawsuits at two to three times the rate of non-Hispanic white residents. The gap held in higher-income neighborhoods.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Debt Collection Lab</span><span class="item-meta">August 2024</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://debtcollectionlab.org/research/oregon-findings-chartbook/">Third-party debt collectors and debt buyers dominate Oregon's civil courts, few Oregonians participate in debt cases against them</a></span> <span class="item-authors">with Divia Kallattil</span>
+<p class="item-blurb">
+Debt collection cases made up 52% of Oregon's circuit court civil docket and reached more than 50,000 residents a year. Fewer than 4% of defendants responded and fewer than 1% had a lawyer.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">November 2023</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/evictions-houston-after-harvey/">Evictions in Houston After Hurricane Harvey</a></span></p>
+<p class="item-blurb">
+Eviction filings dipped right after Hurricane Harvey and then spiked. Flooded garden-style apartment complexes saw a 29% increase in evictions between 2016 and 2019.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">March 2023</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/a-scary-new-era-for-evictions-in-harris-county/">A scary new era for evictions in Harris County</a></span></p>
+<p class="item-blurb">
+Harris County recorded close to 80,000 eviction filings in 2022, well above the pre-pandemic norm of 55,000 to 60,000. That ranked third nationally against historical averages.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Houston Chronicle</span><span class="item-meta">December 2022</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.houstonchronicle.com/opinion/outlook/article/houston-texas-eviction-courts-maps-17653865.php">Essay: 5 minutes per eviction hearing? Why Harris County should redraw court maps.</a></span></p>
+<p class="item-blurb">
+Harris County justice of the peace precincts have not been redrawn since 1973. Some courts have about a minute per eviction case while others have fifteen.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/">Houston Chronicle</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">November 2022</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/redrawing-houstons-eviction-courts-any-map-is-better-than-what-we-have-now/">Redrawing Houston's Eviction Courts: Any Map is Better Than What We Have Now</a></span></p>
+<p class="item-blurb">
+Precinct 5 carries close to ten times the population and caseload of Precinct 6. A simulation of 1,000 alternative precinct maps produced more balanced caseloads than the map in use.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.houstonchronicle.com/projects/2024/justice-of-the-peace-caseload/">Houston Chronicle</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">October 2021</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/galveston-housing-crisis/">Galveston has a housing crisis on multiple fronts</a></span></p>
+<p class="item-blurb">
+Median home prices in Galveston rose 80% over a decade and short-term rentals more than doubled after 2019. About 800 fewer families with children now live on the island.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">September 2021</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/houston-care-coordination-improves-health-outcomes/">Houston-based care coordination pilot program improves health outcomes</a></span></p>
+<p class="item-blurb">
+Houston's C3 pilot completed 69% of its care pathways using dedicated coordinators. Scaling to 1,000 clients could save $236,000 to $600,000 in avoided emergency room visits.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">April 2021</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/cdc-eviction-moratorium-tarrant-county/">First Results of the CDC Eviction Moratorium in Tarrant County</a></span></p>
+<p class="item-blurb">
+The CDC moratorium cut Tarrant County eviction filings to 57% of the historical average. Only 27% of eligible tenants filed a declaration, and landlords still won 35% of the cases where one was filed.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">August 2020</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/using-data-to-find-walls-for-census-2020-murals/">Using Data to Find Walls for Census 2020 Murals</a></span></p>
+<p class="item-blurb">
+American Community Survey data identified the Houston neighborhoods with the most historically undercounted residents. Density rather than percentage share determined the best mural sites, which put Gulfton ahead of Second Ward.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">December 2019</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/vote-your-way-top-5-takeaways/">Top 5 Takeaways About the Vote Your Way Campaign</a></span></p>
+<p class="item-blurb">
+About half of Harris County voters used a polling place outside their assigned precinct under countywide voting. Among voters ages 18 to 29 the share was 62%.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">December 2019</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/serving-veterans-after-hurricane-harvey-five-key-findings/">Serving Veterans After Hurricane Harvey: Five Key Findings</a></span></p>
+<p class="item-blurb">
+An estimated 100,000 Gulf Coast veterans applied for FEMA aid after Harvey and 60% reported home damage. Two years later about two-thirds still had no flood insurance.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">August 2019</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/how-school-districts-can-help-with-census-2020/">How School Districts Can Help With Census 2020</a></span></p>
+<p class="item-blurb">
+Children ages 0 to 4 face the highest census undercount risk. A 1% Texas undercount would cost more than $3 billion in Medicaid and CHIP funding over a decade.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">April 2019</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/how-to-fight-human-trafficking-with-data/">How to Fight Human Trafficking with Data</a></span></p>
+<p class="item-blurb">
+Mapping suspected illegal massage businesses against Texas schools found more than 35,000 students attending class within 1,000 feet of one. Online ad data showed trafficking activity rising after Hurricane Harvey.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">February 2019</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/making-texas-hard-to-count-citizenship-census-2020/">Making Texas Hard to Count: Citizenship &amp; Census 2020</a></span></p>
+<p class="item-blurb">
+About 22% of Texans live with a non-citizen. If every such household skipped the census over the citizenship question, Texas would lose more than $100 billion in federal funding over ten years.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">November 2018</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/why-houston-will-be-hard-to-count-in-census-2020/">Why Houston Will Be Hard to Count in Census 2020</a></span></p>
+<p class="item-blurb">
+Harris County's low response score of 24% runs five points above the national average, driven by its high renter share, diversity, and young population. A 1% undercount would cost roughly $54 million a year.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">January Advisors</span><span class="item-meta">November 2018</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.januaryadvisors.com/did-late-openings-at-nine-polling-locations-in-harris-county-affect-voter-turnout/">Did Late Openings at Nine Polling Locations in Harris County Affect Voter Turnout?</a></span></p>
+<p class="item-blurb">
+Harris County turnout rose from 34% in 2014 to 52% in 2018. Precincts tied to the nine late-opening polling places gained turnout faster than the county overall, up 93% against 56%.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">April 2018</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://childrenatrisk.org/human_trafficking_near_schools_analysis/">Human Trafficking Near Texas Public Schools</a></span> <span class="item-authors">with Jamey Caruthers</span>
+<p class="item-blurb">
+The analysis located 689 suspected illegal massage businesses across Texas. More than 35,000 students attend schools within 1,000 feet of one, and Harris County held the largest concentration at 259.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.chron.com/news/houston-texas/houston/article/Map-shows-massage-parlors-texas-houston-school-12826409.php">Houston Chronicle</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">January 2018</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://childrenatrisk.org/number-of-uninsured-children-in-texas-could-increase-60-if-congress-fails-to-renew-chip/">Number of Uninsured Children in Texas Could Increase 60% if Congress Fails to Renew CHIP</a></span></p>
+<p class="item-blurb">
+Without CHIP reauthorization, uninsured Texas children would climb from about 650,000 to more than one million by the end of March 2018. Over half of Texas CHIP enrollees live in six counties.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">December 2017</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://childrenatrisk.org/school-districts-with-the-top-food-programs-for-low-income-students-in-texas/">School districts with the top food programs for low-income students in Texas</a></span> <span class="item-authors">with Jenny Eyer</span>
+<p class="item-blurb">
+Rio Grande Valley and El Paso districts led the 2016-17 school meal rankings, with 80% to 90% of low-income students eating school breakfast and lunch. San Antonio ISD and Dallas ISD led among districts over 50,000 students.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">September 2017</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://childrenatrisk.org/who-represents-the-2-9-million-texas-children-affected-by-hurricane-harvey/">Who represents the 2.9 million Texas children affected by Hurricane Harvey?</a></span></p>
+<p class="item-blurb">
+Districts in the 58-county Harvey disaster area are represented by 44% of Texas House members and 58% of state senators. Nearly 3 million affected children fall under lawmakers from both parties.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">August 2017</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://childrenatrisk.org/hurricane-harvey-keeps-1-4-million-students-out-of-public-schools-for-at-least-a-week/">Hurricane Harvey keeps 1.4 million students out of public schools for at least a week</a></span></p>
+<p class="item-blurb">
+Harvey delayed the school year for about 1.4 million students across 117 districts and nearly 1,800 campuses. Close to 60% of those students were economically disadvantaged.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Children at Risk</span><span class="item-meta">August 2017</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://childrenatrisk.org/academic-performance-across-texas-school-districts/">Academic performance across Texas school districts</a></span></p>
+<p class="item-blurb">
+Only 14% of students in the average Texas district reached the Masters grade level standard on STAAR in 2015-16. Variation within large districts was wide, with Houston ISD campuses ranging from under 1% to above 80%.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">April 2017</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.pewresearch.org/short-reads/2017/04/19/sub-saharan-africa-will-be-home-to-growing-shares-of-the-worlds-christians-and-muslims/">Sub-Saharan Africa will be home to growing shares of the world's Christians and Muslims</a></span></p>
+<p class="item-blurb">
+Sub-Saharan Africa's share of the world's Christians is projected to rise from 26% in 2015 to more than 40% by 2060. Europe's share falls from nearly a quarter to 14%.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">April 2017</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/short-reads/2017/04/07/why-people-with-no-religion-are-projected-to-decline-as-a-share-of-the-worlds-population/">Why people with no religion are projected to decline as a share of the world's population</a></span> <span class="item-authors">with Michael Lipka</span>
+<p class="item-blurb">
+The religiously unaffiliated population will grow to 1.2 billion by 2060 but shrink from 16% to 13% of the world's people. The unaffiliated are older and have fewer children than religiously affiliated people.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">April 2017</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/religion/2017/04/05/the-changing-global-religious-landscape/">The Changing Global Religious Landscape</a></span> <span class="item-authors">with Conrad Hackett, Marcin Stonawski, and others</span>
+<p class="item-blurb">
+Births to Muslim mothers are projected to outnumber births to Christian mothers by 2035. Only 10% of the world's newborns between 2010 and 2015 were born to religiously unaffiliated mothers.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">April 2017</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/short-reads/2017/04/05/christians-remain-worlds-largest-religious-group-but-they-are-declining-in-europe/">Christians remain world's largest religious group, but they are declining in Europe</a></span> <span class="item-authors">with Conrad Hackett</span>
+<p class="item-blurb">
+Christians are 31% of the world's population and still the largest religious group. In Europe, Christian deaths outnumbered Christian births by nearly 6 million between 2010 and 2015.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">December 2016</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.pewresearch.org/short-reads/2016/12/14/muslims-in-sub-saharan-africa-are-twice-as-likely-as-christians-to-have-no-formal-education/">Muslims in sub-Saharan Africa are twice as likely as Christians to have no formal education</a></span></p>
+<p class="item-blurb">
+In sub-Saharan Africa, 65% of Muslim adults have no formal schooling. The figure for Christian adults is 30%.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">December 2016</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/religion/2016/12/13/religion-and-education-around-the-world/">Religion and Education Around the World</a></span> <span class="item-authors">with Conrad Hackett, Michaela Potančoková, Marcin Stonawski</span>
+<p class="item-blurb">
+Jews have the most years of formal schooling of any major religious group, and Muslims and Hindus the fewest. The youngest religiously unaffiliated adults have now passed Christians in average years of schooling.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">November 2016</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/short-reads/2016/11/01/child-marriage-is-rare-in-the-u-s-though-this-varies-by-state/">Child marriage is rare in the U.S., though this varies by state</a></span> <span class="item-authors">with Aleksandra Sandstrom</span>
+<p class="item-blurb">
+About 57,800 Americans ages 15 to 17 were married in 2014, or five of every 1,000 in that age group. West Virginia and Texas had the highest rates.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">May 2016</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.pewresearch.org/short-reads/2016/05/13/gender-gap-in-religious-service-attendance-has-narrowed-in-u-s/">Gender gap in religious service attendance has narrowed in U.S.</a></span></p>
+<p class="item-blurb">
+The gap between women's and men's weekly religious service attendance narrowed from 10 percentage points in the early 1970s to 6 points in the early 2010s. Women's attendance fell faster than men's.
+</p>
+<p class="item-coverage">
+<span class="coverage-label">Covered in</span> <a href="https://www.salon.com/2016/06/02/women_are_fleeing_the_church_partner/">Salon</a>
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Pew Research Center</span><span class="item-meta">March 2016</span></span>
+<div class="item-body">
+<span class="item-title"><a href="https://www.pewresearch.org/religion/2016/03/22/the-gender-gap-in-religion-around-the-world/">The Gender Gap in Religion Around the World</a></span> <span class="item-authors">with Conrad Hackett, Caryle Murphy, Anne Fengyan Shi</span>
+<p class="item-blurb">
+Across 192 countries women are generally more religious than men. The pattern is strongest among Christians and largely absent among Muslims, except in mosque attendance, where men attend more.
+</p>
+</div>
+</div>
+<div class="item">
+<span class="item-aside"><span class="outlet-tag">Council on Contemporary Families</span><span class="item-meta">February 2014</span></span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://web.archive.org/web/20160404234153/https://contemporaryfamilies.org/interfaith-marriage-in-the-us/">Interfaith Marriage and Romantic Unions in the United States</a></span></p>
+<p class="item-blurb">
+The share of U.S. marriages joining partners from different religions roughly doubled from the 1960s to the 2000s. A growing share of those couples keep separate religious identities rather than one partner converting.
+</p>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="writing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<div id="listing-peer-reviewed" class="quarto-listing quarto-listing-container-custom">
+<div class="item-list">
+<div class="item">
+<span class="item-year">2026</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://doi.org/10.1136/fmch-2026-003963">Impact of adverse childhood experiences, positive childhood experiences and adult protective and risk factors on health in a statewide representative sample</a></span> <span class="item-authors">Kotz, K., R. Gilgoff, J. Gassen, D. Bhushan, J. Schuetz, W. Barrera, D. McClendon, &amp; G. M. Slavich</span> <span class="item-meta"><em>Family Medicine and Community Health</em>, 14(3): e003963</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1136/fmch-2026-003963">doi:10.1136/fmch-2026-003963</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC13504943/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2018</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jomf.12482">Crossing Boundaries: "Some College," Schools, and Educational Assortative Mating</a></span> <span class="item-authors">McClendon, D.</span> <span class="item-meta"><em>Journal of Marriage and Family</em>, 80(4): 812-825</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1111/jomf.12482">doi:10.1111/jomf.12482</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9624488/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2018</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/padr.12142">Women's Education in the Muslim World</a></span> <span class="item-authors">McClendon, D., C. Hackett, M. Potančoková, M. Stonawski, &amp; V. Skirbekk</span> <span class="item-meta"><em>Population and Development Review</em>, 44(2): 311-342</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1111/padr.12142">doi:10.1111/padr.12142</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2018</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jssr.12498">Where Men Appear More Religious Than Women: Turning a Gender Lens on Religion in Israel</a></span> <span class="item-authors">Schnabel, L., C. Hackett, &amp; D. McClendon</span> <span class="item-meta"><em>Journal for the Scientific Study of Religion</em>, 57(1): 80-94</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1111/jssr.12498">doi:10.1111/jssr.12498</a><a href="https://osf.io/preprints/socarxiv/n3cw5/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2017</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.demographic-research.org/articles/volume/37/60">Dating Across and Hooking 'Up': Status and Relationship Formation at an Elite Liberal Arts University</a></span> <span class="item-authors">Kilanski, K. &amp; D. McClendon</span> <span class="item-meta"><em>Demographic Research</em>, 37(60): 1917-1932</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.4054/DemRes.2017.37.60">doi:10.4054/DemRes.2017.37.60</a><a href="https://www.demographic-research.org/volumes/vol37/60/37-60.pdf">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2016</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://onlinelibrary.wiley.com/doi/10.1111/jomf.12353">Religion, Marriage Markets, and Assortative Mating in the United States</a></span> <span class="item-authors">McClendon, D.</span> <span class="item-meta"><em>Journal of Marriage and Family</em>, 78(5): 1399-1421</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1111/jomf.12353">doi:10.1111/jomf.12353</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC5089166/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2014</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://read.dukeupress.edu/demography/article/51/4/1319/169503">Opportunities to Meet: Occupational Education and Marriage Formation in Young Adulthood</a></span> <span class="item-authors">McClendon, D., J. C-L Kuo, &amp; R. K. Raley</span> <span class="item-meta"><em>Demography</em>, 51(4): 1319-1344</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1007/s13524-014-0313-x">doi:10.1007/s13524-014-0313-x</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4133976/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2014</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://www.demographic-research.org/articles/volume/31/43">When People Shed Religious Identity in Ireland and Austria: Evidence from Censuses</a></span> <span class="item-authors">McClendon, D. &amp; C. Hackett</span> <span class="item-meta"><em>Demographic Research</em>, 31(43): 1297-1310</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.4054/DemRes.2014.31.43">doi:10.4054/DemRes.2014.31.43</a><a href="https://www.demographic-research.org/volumes/vol31/43/31-43.pdf">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2014</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://doi.org/10.1558/imre.v17i1.47">It's Not Business, It's Personal: Implicit Religion in the Corporate Personhood Debate</a></span> <span class="item-authors">McClendon, D.</span> <span class="item-meta"><em>Implicit Religion</em>, 17(1): 47-61</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1558/imre.v17i1.47">doi:10.1558/imre.v17i1.47</a><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC4970755/">Free full text</a></span></p>
+</div>
+</div>
+<div class="item">
+<span class="item-year">2013</span>
+<div class="item-body">
+<p><span class="item-title"><a href="https://academic.oup.com/socrel/article-abstract/74/3/417/1640161">Review of Shall the Religious Inherit the Earth? Demography and Politics in the Twenty-First Century, by Eric Kaufmann</a></span> <span class="item-authors">McClendon, D.</span> <span class="item-meta"><em>Sociology of Religion</em>, 74(3): 417-419</span></p>
+<p><span class="item-links"><a href="https://doi.org/10.1093/socrel/srt026">doi:10.1093/socrel/srt026</a></span></p>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<section id="dissertation" class="level3">
+<h3 data-anchor-id="dissertation">Dissertation</h3>
+<p><a href="https://repositories.lib.utexas.edu/items/30b0d0f6-42c4-4e8d-852c-0b0bc42eac34">Marriage Markets during the Transition to Adulthood in the United States</a>. Ph.D.&nbsp;dissertation, Department of Sociology, University of Texas at Austin, 2015. doi:<a href="https://doi.org/10.15781/T2XP4V">10.15781/T2XP4V</a></p>
+</section>
+</div>
+</div>
+</div>
+
+
+
+
+</main> <!-- /main -->
+<style>
+#viz-tip {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .09s ease-out;
+  max-width: 19rem;
+  padding: .4rem .55rem;
+  border-radius: 4px;
+  font-family: "Source Sans 3", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  line-height: 1.35;
+  background: #22262b;
+  color: #fdfcfa;
+  box-shadow: 0 2px 10px rgba(0,0,0,.22);
+}
+#viz-tip[data-show="1"] { opacity: 1; }
+:root[data-theme="dark"] #viz-tip { background: #e4e1dc; color: #16181c; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) #viz-tip { background: #e4e1dc; color: #16181c; }
+}
+</style>
+<script>
+(function () {
+  // Native SVG <title> tooltips are slow, unstyleable, absent on touch, and
+  // suppressed inside role="img" subtrees in some browsers. Lift the text onto
+  // a data attribute, drop the <title>, and render our own. No dependencies.
+  function init() {
+    var pts = document.querySelectorAll(".viz-pt");
+    if (!pts.length) return;
+
+    var tip = document.createElement("div");
+    tip.id = "viz-tip";
+    document.body.appendChild(tip);
+
+    var shown = false;
+    function hide() { if (shown) { tip.removeAttribute("data-show"); shown = false; } }
+    function place(e) {
+      var pad = 14, w = tip.offsetWidth, h = tip.offsetHeight;
+      var x = e.clientX + pad, y = e.clientY + pad;
+      if (x + w > window.innerWidth - 8) x = e.clientX - w - pad;
+      if (y + h > window.innerHeight - 8) y = e.clientY - h - pad;
+      tip.style.left = Math.max(8, x) + "px";
+      tip.style.top = Math.max(8, y) + "px";
+    }
+
+    pts.forEach(function (g) {
+      var t = g.querySelector("title");
+      if (!t) return;
+      var text = t.textContent.trim();
+      if (!text) return;
+      g.setAttribute("data-tip", text);
+      t.parentNode.removeChild(t);   // otherwise both tooltips fire
+
+      g.addEventListener("pointerenter", function (e) {
+        tip.textContent = text;
+        tip.setAttribute("data-show", "1");
+        shown = true;
+        place(e);
+      });
+      g.addEventListener("pointermove", function (e) { if (shown) place(e); });
+      g.addEventListener("pointerleave", hide);
+    });
+
+    window.addEventListener("scroll", hide, { passive: true });
+    window.addEventListener("blur", hide);
+  }
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init);
+  } else { init(); }
+})();
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/davidmcclendon\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© 2026 David McClendon</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Built with <a href="https://quarto.org">Quarto</a></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
