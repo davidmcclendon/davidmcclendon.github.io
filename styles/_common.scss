@@ -222,13 +222,31 @@ a:hover { text-decoration-thickness: 2px; }
 .cv-role { font-weight: 600; }
 .cv-org { color: $muted; }
 
+// Footer as the sheet's title block. Needs the child selectors: the global
+// `p` rule above beats inherited font-family, and Quarto sets .825em on each
+// footer column, which beats a size set on .nav-footer alone.
 .nav-footer {
   border-top: 1px solid $body-color;
+  padding: 0.65rem 1em;
+}
+.nav-footer,
+.nav-footer p,
+.nav-footer a,
+.nav-footer .nav-footer-left,
+.nav-footer .nav-footer-center,
+.nav-footer .nav-footer-right {
   font-family: $font-family-monospace;
-  font-size: 0.68rem;
-  letter-spacing: 0.05em;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
   color: $muted;
 }
+.nav-footer a {
+  color: $register;
+  text-decoration: none;
+  border-bottom: 1px solid rgba($register, 0.4);
+}
+.nav-footer a:hover { border-bottom-color: $register; }
 
 // ── charts ──────────────────────────────────────────────────────────────
 .viz {
